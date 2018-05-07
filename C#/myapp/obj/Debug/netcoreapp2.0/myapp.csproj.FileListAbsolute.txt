@@ -1,0 +1,11 @@
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\bin\Debug\netcoreapp2.0\myapp.deps.json
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\bin\Debug\netcoreapp2.0\myapp.runtimeconfig.json
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\bin\Debug\netcoreapp2.0\myapp.runtimeconfig.dev.json
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\bin\Debug\netcoreapp2.0\myapp.dll
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\bin\Debug\netcoreapp2.0\myapp.pdb
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\obj\Debug\netcoreapp2.0\myapp.csprojResolveAssemblyReference.cache
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\obj\Debug\netcoreapp2.0\myapp.csproj.CoreCompileInputs.cache
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\obj\Debug\netcoreapp2.0\myapp.AssemblyInfoInputs.cache
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\obj\Debug\netcoreapp2.0\myapp.AssemblyInfo.cs
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\obj\Debug\netcoreapp2.0\myapp.dll
+C:\Users\Powerkilroy\Desktop\GitRepo\Learning---Random\C#\myapp\obj\Debug\netcoreapp2.0\myapp.pdb
