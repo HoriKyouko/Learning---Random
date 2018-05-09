@@ -9,6 +9,8 @@ namespace myapp
             Test tester = new Test();
             tester.testing();
             Console.WriteLine("Hello World!");
+            Console.WriteLine("TEST TO SEE IF ITS A ONE TIME THING");
+            Console.WriteLine("Second TEST TO SEE IF ITS A ONE TIME THING");
         }
     }
     
