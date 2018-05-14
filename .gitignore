@@ -48,6 +48,7 @@ hs_err_pid*
 *.userprefs
 
 # Build results
+*.exe
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
