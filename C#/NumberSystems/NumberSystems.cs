@@ -20,55 +20,14 @@ class NumberSystems
     static void Main(string[] args)
     {
         List<string> list = ReadFile(args[0]);
-        List<string> outputList = new List<string>();
-        for(int i = 0; i < list.Count; i++){
-            string number = list[i];
-            int size = number.Length;
-            outputList = addToList(number, size, outputList);
-        }
-        WriteFile(outputList, args[1]);
-    }
+        DecimalSystem DecimalSystem = new DecimalSystem();
+        list = DecimalSystem.compute(list);
+        WriteFile(list, args[1]);
+    }   
+    
+    // TODO: Put the ReadFile and WriteFile into a class.
 
-    private static List<string> addToList(string number, int size, List<string> outputList)
-    {
-        string output = "";
-        int temp = size-1;
-        if(number.Contains(".")){
-            output = addDecimalToList(number, size);
-        }
-        else{
-            for(int i = 0; i < size; i++){
-                if(i == (size-1))
-                    output = String.Concat(output, number[i] + "*10^" + temp);
-                else
-                    output = String.Concat(output, number[i] + "*10^" + temp + " + ");
-                temp--;
-            }
-        }
 
-        outputList.Add(output);
-        return outputList;
-    }
-    /*
-        Need to work on handling when your decimal goes further than 1 place ie 165.875
-     */
-    private static string addDecimalToList(string number, int size)
-    {
-        string output = "";
-        int temp = number.IndexOf('.') - 1;
-        for(int i = 0; i < size; i++){
-            if(i == (size-1)){
-                output = String.Concat(output, number[i] + "*10^" + temp);
-                temp--;
-            }
-            else if(number[i].Equals('.')){}
-            else{
-                output = String.Concat(output, number[i] + "*10^" + temp + " + ");
-                temp--;
-            }
-        }
-        return output;
-    }
 
     /*
         Simple function for reading from a file and adding it to a list and then returning
@@ -76,11 +35,9 @@ class NumberSystems
      */
     static List<string> ReadFile(string fileName){
         List<string> fileList = new List<string>();
-        using(StreamReader sr = new StreamReader(fileName)){
-            while(!sr.EndOfStream){
+        using(StreamReader sr = new StreamReader(fileName))
+            while(!sr.EndOfStream)
                 fileList.Add(sr.ReadLine());
-            }
-        }
         return fileList;
     }
     /*
