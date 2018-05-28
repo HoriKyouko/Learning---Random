@@ -30,8 +30,10 @@ class NumberSystems
 {
     static void Main(string[] args)
     {
-        List<string> list = FileHandler.ReadFile(args[0]); 
-        FileHandler.WriteFile(BinarySystem.compute(list), args[1]);
+        List<string> list = FileHandler.ReadFile(args[0]);
+        // Currently just need to replace first arguement with corresponding base number
+        // system and if using binary or decimal remove second arguement from compute. 
+        FileHandler.WriteFile(HexSystem.compute(list, false), args[1]);
 
     }   
 }
