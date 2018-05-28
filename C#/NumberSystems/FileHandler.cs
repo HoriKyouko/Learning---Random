@@ -30,6 +30,12 @@ class FileHandler{
     /*
         Found on StackOverflow:
         (https://stackoverflow.com/questions/894263/how-do-i-identify-if-a-string-is-a-number)
+        
+        Minor changes made to the source code:
+        -Allowed capital letters for Hex.
+        -Removed the 0x and 0b for Hex and binary resepectively
+        -Changed 0 to o for Octal was giving false positives with either Hex or Decimal. So if you
+         want to specifically use octal you will need to preface it with a lowercase o.
 
         Originally From PHP documentation for is_numeric
         (http://php.net/manual/en/function.is-numeric.php)
@@ -43,9 +49,9 @@ class FileHandler{
         too but only without sign, decimal and exponential part.
     */
     private static readonly Regex _isNumericRegex = new Regex("^(" +
-                /*Hex*/ @"0x[0-9a-f]+"  + "|" +
-                /*Bin*/ @"0b[01]+"      + "|" + 
-                /*Oct*/ @"0[0-7]*"      + "|" +
+                /*Hex*/ @"[0-9a-fA-F]+" + "|" +
+                /*Bin*/ @"[01]+"        + "|" + 
+                /*Oct*/ @"o[0-7]*"      + "|" +
                 /*Dec*/ @"((?!0)|[-+]|(?=0+\.))(\d*\.)?\d+(e\d+)?" + 
                 ")$" );
     private static bool IsNumeric(string temp)
