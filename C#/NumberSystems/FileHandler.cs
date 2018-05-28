@@ -1,3 +1,7 @@
+/*
+    Created by Timothy Garrett
+    5/28/18
+ */
 using System;
 using System.IO;
 using System.Collections.Generic;

@@ -1,8 +1,12 @@
+/*
+    Created by Timothy Garrett
+    5/28/18
+ */
 using System;
 using System.Collections.Generic;
 
 class BinarySystem{
-    public static List<string> addToList(string number, int size, List<string> outputList){
+    private static List<string> addToList(string number, int size, List<string> outputList){
         // We simply add a -1 to denote there was an exception.
         if(number.Equals("-1")){
             outputList.Add("-1");
@@ -24,7 +28,7 @@ class BinarySystem{
     public static List<string> compute(List<string> list){
         List<string> newList = new List<string>();
         for(int i = 0; i < list.Count; i++)
-            newList = DecimalSystem.addToList(list[i], list[i].Length, newList);
+            newList = addToList(list[i], list[i].Length, newList);
         return newList;
     }
 }

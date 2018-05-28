@@ -31,6 +31,7 @@ class NumberSystems
     static void Main(string[] args)
     {
         List<string> list = FileHandler.ReadFile(args[0]); 
-        FileHandler.WriteFile(DecimalSystem.compute(list), args[1]);
+        FileHandler.WriteFile(BinarySystem.compute(list), args[1]);
+
     }   
 }
