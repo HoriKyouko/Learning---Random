@@ -19,34 +19,9 @@ class NumberSystems
     */
     static void Main(string[] args)
     {
-        List<string> list = ReadFile(args[0]);
+        List<string> list = FileHandler.ReadFile(args[0]); 
         DecimalSystem DecimalSystem = new DecimalSystem();
         list = DecimalSystem.compute(list);
-        WriteFile(list, args[1]);
+        FileHandler.WriteFile(list, args[1]);
     }   
-    
-    // TODO: Put the ReadFile and WriteFile into a class.
-
-
-
-    /*
-        Simple function for reading from a file and adding it to a list and then returning
-        that list. Only works if each entry is a single line.
-     */
-    static List<string> ReadFile(string fileName){
-        List<string> fileList = new List<string>();
-        using(StreamReader sr = new StreamReader(fileName))
-            while(!sr.EndOfStream)
-                fileList.Add(sr.ReadLine());
-        return fileList;
-    }
-    /*
-        Simple function for writing a given list to an output file. Doesn't return anything
-        but each entry is on it's own line.
-     */
-    static void WriteFile(List<string> list, string fileName){
-        using(StreamWriter sw = new StreamWriter(fileName))
-            for(int i = 0; i < list.Count; i++)
-                sw.WriteLine(list[i]);
-    }
 }
