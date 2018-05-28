@@ -8,6 +8,11 @@
  class DecimalSystem{
     public static List<string> addToList(string number, int size, List<string> outputList)
     {
+        // We simply add a -1 to denote there was an exception.
+        if(number.Equals("-1")){
+            outputList.Add("-1");
+            return outputList;
+        }
         string output = "";
         int temp = size-1;
         if(number.Contains(".")){
