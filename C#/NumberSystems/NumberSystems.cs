@@ -33,7 +33,7 @@ class NumberSystems
         List<string> list = FileHandler.ReadFile(args[0]);
         // Currently just need to replace first arguement with corresponding base number
         // system and if using binary or decimal remove second arguement from compute. 
-        FileHandler.WriteFile(HexSystem.compute(list, false), args[1]);
+        FileHandler.WriteFile(DecimalSystem.compute(list), args[1]);
 
     }   
 }

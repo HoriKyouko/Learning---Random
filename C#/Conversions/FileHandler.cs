@@ -34,6 +34,8 @@ class FileHandler{
         Minor changes made to the source code:
         -Allowed capital letters for Hex.
         -Removed the 0x and 0b for Hex and binary resepectively and changed it to x and b.
+        -Changed 0 to o for Octal was giving false positives with either Hex or Decimal. So if you
+         want to specifically use octal you will need to preface it with a lowercase o.
 
         Originally From PHP documentation for is_numeric
         (http://php.net/manual/en/function.is-numeric.php)
@@ -47,9 +49,9 @@ class FileHandler{
         too but only without sign, decimal and exponential part.
     */
     private static readonly Regex _isNumericRegex = new Regex("^(" +
-                /*Hex*/ @"x[0-9a-fA-F]+" + "|" +
-                /*Bin*/ @"b[01]+"        + "|" + 
-                /*Oct*/ @"0[0-7]*"      + "|" +
+                /*Hex*/ @"x[0-9a-fA-F]+"   + "|" +
+                /*Bin*/ @"b[01]+"          + "|" + 
+                /*Oct*/ @"0[0-7]*"          + "|" +
                 /*Dec*/ @"((?!0)|[-+]|(?=0+\.))(\d*\.)?\d+(e\d+)?" + 
                 ")$" );
     private static bool IsNumeric(string temp)
