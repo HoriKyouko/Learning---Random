@@ -16,6 +16,6 @@ class Program
     static void Main(string[] args)
     {
         List<string> list = FileHandler.ReadFile(args[0]);
-        FileHandler.WriteFile(DecimalConversion.compute(list, (int)ConversionOptions.hex),args[1]);
+        FileHandler.WriteFile(BinaryConversion.compute(list, (int)ConversionOptions.dec),args[1]);
     }
 }
