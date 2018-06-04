@@ -6,9 +6,7 @@ using System;
 using System.Collections.Generic;
 
 public enum ConversionOptions{
-    bin = 1,
-    dec,
-    hex,
+    bin = 1, dec, hex,
 }
 
 class Program

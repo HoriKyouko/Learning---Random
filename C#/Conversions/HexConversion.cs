@@ -94,10 +94,8 @@ class HexConversion{
     {
         if(output.Equals("0000"))
             return "0";
-        int i = 0;
-        while(output[i] != '1'){
-            output = output.Remove(i,1);
-        }
+        while(output[0] != '1')
+            output = output.Remove(0,1);
         return output;   
     }
 
