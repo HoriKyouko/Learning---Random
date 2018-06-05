@@ -14,7 +14,7 @@ class NegateNumber{
         }
         return output;
     }
-    private static string flipBits(string v)
+    public static string flipBits(string v)
     {
         if(v.Equals("-1"))
             return("-1");
