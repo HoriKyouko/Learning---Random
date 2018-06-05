@@ -17,6 +17,25 @@ class TwoCompMath<T> where T : IConvertible{
                 return (List<T>) Convert.ChangeType(SubtractionOutputToDec(list), typeof(List<T>));
         }
     }
+    private static bool IsThereOverflow(bool num1, bool num2, bool sum)
+    {
+        if(num1 != num2)
+            return false;
+        else{
+            if(num1 != sum){
+                Console.Error.WriteLine("THERE WAS OVERFLOW!!!!!");
+                return true;
+            }
+            return false;
+        }
+    }
+
+    private static bool checkPositivity(char number)
+    {
+        if(number.Equals('0'))
+            return true;
+        return false;
+    }
     /*
         Assumes both strings will be of the same length.
      */
@@ -53,37 +72,60 @@ class TwoCompMath<T> where T : IConvertible{
     private static List<int> AdditionOutputToDec(List<string> list)
     {
         List<int> output = new List<int>();
+        bool num1 = false;
+        bool num2 = false;
+        bool sum = false;
         string addition = "";
         int decOutput = 0;
         for(int i = 0; i < list.Count; i = i+2){
             var tup = new Tuple<string, string>(list[i], list[i+1]);
+            num1 = checkPositivity(tup.Item1[0]);
+            num2 = checkPositivity(tup.Item2[0]);
             addition = String.Concat(BinaryAddition(tup), addition);
-            decOutput = DecimalExpansion.ExpansionMath(addition);
-            output.Add(decOutput);
+            sum = checkPositivity(addition[0]);
+            if(!IsThereOverflow(num1, num2, sum)){
+                decOutput = DecimalExpansion.ExpansionMath(addition);
+                output.Add(decOutput);
+            }
         }
         return output;
     }
     private static List<string> AdditionOutputToBin(List<string> list)
     {
         List<string> output = new List<string>();
+        bool num1 = false;
+        bool num2 = false;
+        bool sum = false;
         string addition = "";
         for(int i = 0; i < list.Count; i = i+2){
             var tup = new Tuple<string, string>(list[i], list[i+1]);
+            num1 = checkPositivity(tup.Item1[0]);
+            num2 = checkPositivity(tup.Item2[0]);
             addition = BinaryAddition(tup);
-            output.Add(addition);
+            sum = checkPositivity(addition[0]);
+            if(!IsThereOverflow(num1, num2, sum))
+                output.Add(addition);
         }
         return output;
     }
     private static List<int> SubtractionOutputToDec(List<string> list)
     {
         List<int> output = new List<int>();
+        bool num1 = false;
+        bool num2 = false;
+        bool sum = false;
         string subtraction = "";
         int decOutput = 0;
         for(int i = 0; i < list.Count; i = i+2){
             var tup = new Tuple<string, string>(list[i], NegateNumber.flipBits(list[i+1]));
+            num1 = checkPositivity(tup.Item1[0]);
+            num2 = checkPositivity(tup.Item2[0]);
             subtraction = BinaryAddition(tup);
-            decOutput = DecimalExpansion.ExpansionMath(subtraction);
-            output.Add(decOutput);
+            sum = checkPositivity(subtraction[0]);
+            if(!IsThereOverflow(num1, num2, sum)){
+                decOutput = DecimalExpansion.ExpansionMath(subtraction);
+                output.Add(decOutput);
+            }
         }
         return output;
     }
@@ -91,11 +133,18 @@ class TwoCompMath<T> where T : IConvertible{
     private static List<string> SubtractionOutputToBin(List<string> list)
     {
         List<string> output = new List<string>();
+        bool num1 = false;
+        bool num2 = false;
+        bool sum = false;
         string subtraction = "";
         for(int i = 0; i < list.Count; i = i+2){
             var tup = new Tuple<string, string>(list[i], NegateNumber.flipBits(list[i+1]));
+            num1 = checkPositivity(tup.Item1[0]);
+            num2 = checkPositivity(tup.Item2[0]);
             subtraction = BinaryAddition(tup);
-            output.Add(subtraction);
+            sum = checkPositivity(subtraction[0]);
+            if(!IsThereOverflow(num1, num2, sum))
+                output.Add(subtraction);
         }
         return output;
     }
