@@ -10,31 +10,43 @@ class DecimalExpansion
     static void Main(string[] args)
     {
         List<string> list = FileHandler<string>.ReadFile(args[0]);
+        FileHandler<int>.WriteFile(NegateNumber.compute(list), args[1]);   
+    }
+
+    private static void ExpansionMath(string[] args)
+    {
+        List<string> list = FileHandler<string>.ReadFile(args[0]);
         List<int> outputList = new List<int>();
-        
-        for(int i = 0; i < list.Count; i++){
-            if(list[i].Equals("-1"))
+
+        for (int i = 0; i < list.Count; i++)
+        {
+            if (list[i].Equals("-1"))
                 outputList.Add(-1);
-            else{
+            else
+            {
                 bool MSBvalue = MSB(list[i][0]);
                 string word = list[i];
-                if(MSBvalue){
-                    int power = word.Length-1;
+                if (MSBvalue)
+                {
+                    int power = word.Length - 1;
                     int value = 0;
-                    for(int j = 0; j < word.Length; j++){
+                    for (int j = 0; j < word.Length; j++)
+                    {
                         string s = word[j].ToString();
                         int temp = Int32.Parse(s);
-                        if(j == 0)
+                        if (j == 0)
                             temp = -temp;
                         value += temp * (int)Math.Pow(2, power);
                         power--;
                     }
                     outputList.Add(value);
                 }
-                else{
-                    int power = word.Length-1;
+                else
+                {
+                    int power = word.Length - 1;
                     int value = 0;
-                    for(int j = 0; j < word.Length; j++){
+                    for (int j = 0; j < word.Length; j++)
+                    {
                         string s = word[j].ToString();
                         int temp = Int32.Parse(s);
                         value += temp * (int)Math.Pow(2, power);
@@ -44,7 +56,7 @@ class DecimalExpansion
                 }
             }
         }
-        FileHandler<int>.WriteFile(outputList,args[1]);
+        FileHandler<int>.WriteFile(outputList, args[1]);
     }
 
     static bool MSB(char binary){
