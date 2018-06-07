@@ -7,10 +7,16 @@ using System;
 class Randomizer{
     private int from;
     private int to;
-    public Randomizer(){}
-    public Randomizer(int from, int to){
+    private int seed;
+    public Randomizer(){
+        this.from = new Random().Next(0, 43);
+        this.to = new Random().Next(from+1, 43);
+        this.seed = new Random().Next();
+    }
+    public Randomizer(int from, int to, int seed){
         this.from = from;
         this.to = to;
+        this.seed = seed;
     }
     
     public int From{
@@ -21,5 +27,18 @@ class Randomizer{
         get{return to;}
         set{to = value;}
     }
-    public int RandomValue() => new Random().Next(from, to);
+
+    public int Seed{
+        get{return seed;}
+        set{seed = value;}
+    }
+    public int RandomValue() => new Random(seed).Next(from, to);
+
+    public char[] RandomChar(int length){
+        Random rand = new Random(seed);
+        char[] output = new char[length];
+        for(int i = 0; i < length; i++)
+            output[i] = (char)rand.Next(97,123);
+        return output;
+    }
 }
