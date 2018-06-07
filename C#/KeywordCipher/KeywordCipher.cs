@@ -10,6 +10,9 @@ class KeywordCipher
     {
         Randomizer rand = new Randomizer(1, 4);
         char temp = (char)(rand.RandomValue()+96);
-        Console.WriteLine(temp);
+        for(int i = 0; i < 256; i++){
+            char temp2 = (char)i;
+            Console.WriteLine(temp2);
+        }
     }
 }
