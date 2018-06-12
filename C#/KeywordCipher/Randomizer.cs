@@ -8,11 +8,6 @@ class Randomizer{
     private int from;
     private int to;
     private int seed;
-    public Randomizer(){
-        this.from = new Random().Next(0, 43);
-        this.to = new Random().Next(from+1, 43);
-        this.seed = new Random().Next();
-    }
     public Randomizer(int from, int to, int seed){
         this.from = from;
         this.to = to;
