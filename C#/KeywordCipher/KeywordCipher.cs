@@ -52,22 +52,18 @@ class KeywordCipher
             int count = 0;
             int j = 0;
             string comStr = "";
-            bool zero = false;
             while(count != temp.Length){
-                zero = false;
                 if(Char.IsLetter(temp[count]) && keyword[j].alphabet.Equals(temp[count])){
                     comStr = String.Concat(comStr, keyword[j].keychar);
                     count++;
                     j = 0;
-                    zero = true;
                 }
                 else if(!Char.IsLetter(temp[count])){
                     comStr = String.Concat(comStr, temp[count]);
                     count++;
                     j = 0;
-                    zero = true;
                 }
-                if(!zero)
+                else
                     j++;
             }
             outputList.Add(comStr);

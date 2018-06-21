@@ -14,9 +14,6 @@ class FileHandler{
             while(!sr.EndOfStream){
                 char temp = (char)sr.Read();
                 temp = Char.ToLower(temp);
-                if(fileList.Count == 103){
-                    Console.Write("");
-                }
                 if(temp.Equals(' ')){
                     str = String.Concat(str, temp);
                     fileList.Add(str);
