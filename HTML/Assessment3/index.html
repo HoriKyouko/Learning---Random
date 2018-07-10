@@ -82,7 +82,7 @@
       <h1>Mozilla</h1>
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
-        <img src="firefoxlogo120.png" alt="A logo of Firefox" width="120" height="90">
+        <img src="firefoxlogo120.png" alt="A logo of Firefox">
     </header>
 
     <main>
@@ -101,19 +101,19 @@
         <a href="https://www.mozilla.org/en-US/firefox/new/">
           <img srcset="firefoxlogo120.png 120w,
                        firefoxlogo400.png 400w"
-                sizes="(max-width: 480px) 440px, 400px"
+                sizes="(max-width: 480px) 120px, 400px"
                 src="firefoxlogo400.png" alt="The Firefox logo">
         </a>
         <a href="https://www.mozilla.org/">
           <img srcset="mozilladinosaurhead120.png 120w,
                        mozilladinosaurhead400.png 400w"
-                sizes="(max-width: 480px) 440px, 400px"
+                sizes="(max-width: 480px) 120px, 400px"
                 src="mozilladinosaurhead400.png" alt="The mozilla dinosaur logo">
         </a>
         <a href="https://addons.mozilla.org/">
           <img srcset= "firefoxaddons120.jpg 120w,
                         firefoxaddons400.jpg 400w"
-               sizes="(max-width: 480px) 440px, 400px"
+               sizes="(max-width: 480px) 120px, 400px"
                src="firefoxaddons400.jpg" alt="Logo of the firefox">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
@@ -126,8 +126,8 @@
       <div class="red-panda">
         <!-- insert picture element -->
         <picture>
-                <source type="image/jpg" srcset="redpanda600.jpg 600w, redpanda1200.jpg 1200w" sizes="(max-width: 600px) 540px, 1200px">
-                <img src="redpanda600.jpg" alt="A wonderful picture of a red panda hanging in a tree">
+                <source type="image/jpg" srcset="redpanda600.jpg" media="(max-width: 600px)">
+                <img src="redpanda1200.jpg" alt="A wonderful picture of a red panda hanging in a tree">
           </picture>
       </div>
 
