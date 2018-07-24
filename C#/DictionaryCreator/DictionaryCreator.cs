@@ -1,7 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-
+/*
+    Was meant to help me figure out words for WordScape, but failed because
+    there are so many permutations possible if you don't reduce obvious failures
+    in the english alphabet i.e a word starting with rv that isn't rv or rvs in
+    this case.
+ */
 namespace DictionaryCreater
 {
     class DictionaryCreater
