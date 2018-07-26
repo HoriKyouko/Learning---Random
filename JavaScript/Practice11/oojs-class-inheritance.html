@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Object-oriented JavaScript inheritance</title>
+  </head>
+
+  <body>
+    <div>
+      <label for="jscode">Enter code:</label>
+      <input type="text" id="jscode">
+      <button>Submit code</button>
+    </div>
+
+    <p></p>
+  </body>
+
+    <script>
+      var input = document.querySelector('input');
+      var btn = document.querySelector('button');
+      var para = document.querySelector('p');
+      btn.onclick = function() {
+        var code = input.value;
+        para.textContent = eval(code);
+      }
+      class Person{
+          constructor(first, last, age, gender, interests){
+              this.name = {
+                  first,
+                  last
+              };
+              this.age = age;
+              this.gender = gender;
+              this.interests = interests;
+          }
+          greeting(){
+              console.log("Hi! I'm " + this.name.first);
+          };
+
+          farewell(){
+              console.log(this.name.first + " has left the building. By for now!");
+          }
+      }
+
+      let han = new Person("Han", "Solo", 25, "male", ["smuggling"]);
+      han.greeting();
+
+      let leia = new Person("Leia", "Organa", 19, "female", ["Government"]);
+      leia.farewell();
+
+      class Teacher extends Person{
+          constructor(first, last, age, gender, interests, subject, grade){
+              super(first, last, age, gender, interests);
+              this._subject = subject;
+              this.grade = grade;
+          }
+          get subject(){
+              return this._subject;
+          }
+          set subject(newSubject){
+              this._subject = newSubject;
+          }
+      }
+
+      let snape = new Teacher("Severus", "Snape", 58, "male", ["Potions"], "Dark arts", 5);
+    </script>
+</html>
