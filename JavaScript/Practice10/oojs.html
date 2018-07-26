@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Object-oriented JavaScript example</title>
+  </head>
+
+  <body>
+    <p>This example requires you to enter commands in your browser's JavaScript console (see <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools">What are browser developer tools</a> for more information).</p>
+
+  </body>
+
+    <script>
+       function Person(first, last, age, gender, interests){
+           this.name = {
+               "first": first,
+               "last": last
+           };
+           this.age = age;
+           this.gender = gender;
+           this.interests = interests;
+           if(this.gender === "male" || this.gender === "Male"){
+                this.bio = function(){
+                    var message = this.name.first + " " + this.name.last + " is " + this.age + " years old. He likes ";
+                    for(var i = 0; i < interests.length; i++){
+                        if(i === interests.length-1){
+                            message += this.interests[i] + ".";
+                        }
+                        else{
+                            message += this.interests[i] + " and ";
+                        }
+                    }
+                    alert(message);
+                };
+           }
+           else if(this.gender === "female" || this.gender === "Female"){
+                this.bio = function(){
+                    var message = this.name.first + " " + this.name.last + " is " + this.age + " years old. She likes ";
+                    for(var i = 0; i < interests.length; i++){
+                        if(i === interests.length-1){
+                            message += this.interests[i] + ".";
+                        }
+                        else{
+                            message += this.interests[i] + " and ";
+                        }
+                    }
+                    alert(message);
+                };
+           }
+           this.greeting = function(){
+               alert("Hi! I\'m " + this.name.first + ".");
+           };
+       }
+
+       var person1 = new Person("Bob", "Smith", 32, "male", ["music", "skiing", "snowboarding"]);
+       var person2 = new Person("Sarah", "Smith", 32, "female", ["art", "singing", "dancing"]);
+
+       Person.prototype.farewell = function(){
+           alert(this.name.first + " has left the building. Bye for now!");
+       };
+    </script>
+</html>
