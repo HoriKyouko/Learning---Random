@@ -111,7 +111,7 @@ function main() {
         var colors = [];
         for(var j = 0; j < faceColors.length; ++j){
             const c = faceColors[j];
-            color = colors.concat(c, c, c, c);
+            colors = colors.concat(c, c, c, c);
         }
         const colorBuffer = gl.createBuffer();
         gl.bindBuffer(gl.ARRAY_BUFFER, colorBuffer);
