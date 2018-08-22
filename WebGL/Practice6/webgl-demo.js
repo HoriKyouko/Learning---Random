@@ -46,7 +46,7 @@ function main(){
         },
         uniformLocations: {
             projectionMatrix: gl.getUniformLocation(shaderProgram, "uProjectionMatrix"),
-            uModelViewMatrix: gl.getUniformLocation(shaderProgram, "uModelViewMatrix"),
+            modelViewMatrix: gl.getUniformLocation(shaderProgram, "uModelViewMatrix"),
             uSampler: gl.getUniformLocation(shaderProgram, "uSampler"),
         },
     };
@@ -200,7 +200,9 @@ function loadTexture(gl, url){
         }
     };
     //requestCORSIfNotSameOrigin(image, url);
-    //image.crossOrigin = "";
+    
+    // MUST ADD CROSSORIGIN IF IT IS FROM A WEBSITE!
+    image.crossOrigin = "";
     image.src = url;
 
     return texture;
