@@ -327,8 +327,8 @@ function drawScene(gl, programInfo, buffers, texture, deltaTime){
         const stride = 0;
         const offset = 0;
         gl.bindBuffer(gl.ARRAY_BUFFER, buffers.normal);
-        gl.vertexAttribPointer(programInfo.attribLocations.vertexNormals, numComponents, type, normalize, stride, offset);
-        gl.enableVertexAttribArray(programInfo.attribLocations.vertexNormals);
+        gl.vertexAttribPointer(programInfo.attribLocations.vertexNormal, numComponents, type, normalize, stride, offset);
+        gl.enableVertexAttribArray(programInfo.attribLocations.vertexNormal);
     }
 
     gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, buffers.indices);
