@@ -14,21 +14,54 @@ namespace DictionaryCreater
         static void Main(string[] args)
         {
             int length = Int32.Parse(args[0]);
-            char[] alphabet = new char[args.Length-1];
-            for(int i = 1; i < args.Length; i++)
-                alphabet[i-1] = Char.Parse(args[i]);
-            List<string> dictionary = buildDictionary(alphabet);
-            for(int i = 0; i < alphabet.Length; i++)
-                Console.WriteLine(alphabet[i]);
+            /*char[] alphabet = new char[length];
+            for(int i = 0; i < length; i++)
+                alphabet[i] = Char.Parse(args[i+1]);*/
+            // Why am I storing this here I never use dictionary???
+            buildDictionary(length);
+            /*for(int i = 0; i < alphabet.Length; i++)
+                Console.WriteLine(alphabet[i]);*/
         }
 
-        private static List<string> buildDictionary(char[] alphabet)
+        private static void buildDictionary(int length)
         {
-            List<string> dictionary = new List<string>();
-            StreamWriter sw = new StreamWriter("output.txt");
-            dictionary = buildDictionary(alphabet, 0, alphabet.Length-1, sw);
-            sw.Close();
-            return dictionary;
+            int [] convertedAlphabet = new int [length];
+            /*for(int i = 0; i < convertedAlphabet.Length; i++)
+                convertedAlphabet[i] = alphabet[i] - 97;
+            */
+            //List<string> dictionary = new List<string>();
+            using(StreamWriter sw = new StreamWriter("output.txt")){
+                for(int i = 0; i < 26; i++){
+                    for(int j = 0; j < 26; j++){
+                        for(int k = 0; k < 26; k++){
+                            for(int l = 0; l < 26; l++){
+                                for(int m = 0; m < 26; m++){
+                                    for(int n = 0; n < 26; n++){
+                                        for(int o = 0; o < 26; o++){
+                                            for(int p = 0; p < 26; p++){
+                                                createElement(i, j, k, l, m, n, o, p, sw);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            //dictionary = buildDictionary(alphabet, 0, alphabet.Length-1, sw);
+        }
+
+        private static void createElement(int i, int j, int k, int l, int m, int n, int o, int p, StreamWriter sw)
+        {
+            int [] temp = new int[]{i,j,k,l,m,n,o,p};
+            string value = "";
+            for(int x = 0; x < temp.Length; x++){
+                char character = Convert.ToChar(temp[x] + 97);
+                value = value + character;
+            }
+            sw.WriteLine(value);
         }
 
         private static List<string> buildDictionary(char[] alphabet, int v1, int v2, StreamWriter sw)
