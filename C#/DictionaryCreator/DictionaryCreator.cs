@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 /*
-    Was meant to help me figure out words for WordScape, but failed because
-    there are so many permutations possible if you don't reduce obvious failures
-    in the english alphabet i.e a word starting with rv that isn't rv or rvs in
-    this case.
+    An idea to repurpose this into a password generator...
+    Lets just say it didn't finish without running out of space
+    and that was only for 26^8...
  */
 namespace DictionaryCreater
 {
@@ -13,24 +12,14 @@ namespace DictionaryCreater
     {
         static void Main(string[] args)
         {
-            int length = Int32.Parse(args[0]);
-            /*char[] alphabet = new char[length];
-            for(int i = 0; i < length; i++)
-                alphabet[i] = Char.Parse(args[i+1]);*/
-            // Why am I storing this here I never use dictionary???
-            buildDictionary(length);
-            /*for(int i = 0; i < alphabet.Length; i++)
-                Console.WriteLine(alphabet[i]);*/
+            buildDictionary(Int32.Parse(args[0]));
         }
 
         private static void buildDictionary(int length)
         {
-            int [] convertedAlphabet = new int [length];
-            /*for(int i = 0; i < convertedAlphabet.Length; i++)
-                convertedAlphabet[i] = alphabet[i] - 97;
-            */
-            //List<string> dictionary = new List<string>();
-            using(StreamWriter sw = new StreamWriter("output.txt")){
+            Stopwatch stopwatch = new Stopwatch();
+            using(StreamWriter sw = new StreamWriter("E:\\output.txt")){
+                stopwatch.Start();
                 for(int i = 0; i < 26; i++){
                     for(int j = 0; j < 26; j++){
                         for(int k = 0; k < 26; k++){
@@ -48,9 +37,11 @@ namespace DictionaryCreater
                         }
                     }
                 }
+                stopwatch.Stop();
+                TimeSpan ts = stopwatch.Elapsed;
+                string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}:{3:00}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds/10);
+                Console.WriteLine("Elapsed Time: " + elapsedTime);
             }
-            
-            //dictionary = buildDictionary(alphabet, 0, alphabet.Length-1, sw);
         }
 
         private static void createElement(int i, int j, int k, int l, int m, int n, int o, int p, StreamWriter sw)
@@ -62,35 +53,6 @@ namespace DictionaryCreater
                 value = value + character;
             }
             sw.WriteLine(value);
-        }
-
-        private static List<string> buildDictionary(char[] alphabet, int v1, int v2, StreamWriter sw)
-        {
-            List<string> dictionary = new List<string>();
-            if(v1 == v2){
-                dictionary.Add(new string(alphabet));
-                sw.WriteLine(alphabet);
-                Console.WriteLine(alphabet);
-                return dictionary;
-            }
-            else{
-                for(int i = v1; i <= v2; i++){
-                    swap(ref alphabet[v1], ref alphabet[i]);
-                    buildDictionary(alphabet, v1 + 1, v2, sw);
-                    swap(ref alphabet[v1], ref alphabet[i]);
-                }
-            }
-            return dictionary;
-        }
-
-        private static void swap(ref char v1, ref char v2)
-        {
-            if(v1 == v2){
-                return;
-            }
-            v1 ^= v2;
-            v2 ^= v1;
-            v1 ^= v2;
         }
     }
 }
