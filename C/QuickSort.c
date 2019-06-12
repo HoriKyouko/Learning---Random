@@ -27,14 +27,33 @@ int compare(int a, int b){
     else
         return 1;
 }
-
+/**
+ * Simplistic swap function where:
+ * temp gets value at arr[a]
+ * arr[a] gets value at arr[b].
+ * arr[b] gets value temp
+ */
 void swap(int *arr, int a, int b){
     int temp = arr[a];
     arr[a] = arr[b];
     arr[b] = temp;
 }
+
+void insertionSort(int* arr, int left, int right){
+    int i, j, key;
+    for(i = left+1; i <= right; i++){
+        key = arr[i];
+        for(j = i; j > left && compare(key, arr[j-1]) < 0; j--)
+            arr[j] = arr[j-1];
+        arr[j] = key;
+    }
+}
+
 /**
- * This may need work...
+ * Selects our pivot using the median of three method. This allows
+ * us to pick the median of the left, center, and right index to
+ * determine what is the median of those three values. This should
+ * give us the middle value for that subarray.
  */
 int selectPivot(int *arr, int left, int right){
     int middle = (left + right) / 2;
@@ -50,37 +69,34 @@ int selectPivot(int *arr, int left, int right){
     return arr[right-1];
 }
 
-void insertionSort(int* arr, int left, int right){
-    int i, j, key;
-    for(i = left+1; i <= right; i++){
-        key = arr[i];
-        for(j = i; j > left && compare(key, arr[j-1]) < 0; j--){
-            arr[j] = arr[j-1];
-        }
-        arr[j] = key;
-    }
-}
-
 void quickSort(int* arr, int left, int right){
+    // If we are below 10 values just call insertion sort.
     if(left + cutoff > right){
         insertionSort(arr, left, right);
     }
+    // otherwise do quicksort
     else{
         int pivot = selectPivot(arr, left, right);
         int i = left, j = right-1;
+        // continue to loop until i >= j
         while(1){
+            // increment our i value till it's >= to pivot
             while(arr[++i] < pivot){}
+            // decrement our j value till it's <= to pivot
             while(pivot < arr[--j]){}
+            // if i is still less than j swap the two values
             if(i < j)
                 swap(arr, i, j);
             else
                 break;
         }
+        // We finally swap our pivot with right-1
         swap(arr, i, right-1);
+        // call quickSort with our left subarray.
         quickSort(arr, left, i - 1);
+        // call quickSort with our right subarray.
         quickSort(arr, i + 1, right);
     }
-
 }
 
 int main(){
