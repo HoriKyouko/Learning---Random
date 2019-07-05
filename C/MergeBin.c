@@ -23,11 +23,11 @@ void mergeSort(struct Coords* copy, struct Coords* coord, int start, int end){
     if(end-start == 2){
         if(coord[start].x > coord[start+1].x){
             int temp = coord[start].x;
-            int temp2 = coord[start].y;
+            //int temp2 = coord[start].y;
             coord[start].x = coord[start + 1].x;
-            coord[start].y = coord[start + 1].y;
+            //coord[start].y = coord[start + 1].y;
             coord[start+1].x = temp;
-            coord[start+1].y = temp;
+            //coord[start+1].y = temp;
         }
         return;
     }
@@ -43,23 +43,31 @@ void mergeSort(struct Coords* copy, struct Coords* coord, int start, int end){
         if(copy[i].x == copy[j].x){
             if(copy[i].y < copy[j].y){
                 coord[index].x = copy[i].x;
-                coord[index].y = copy[i].y;
+                //coord[index].y = copy[i].y;
                 i++;
+                index++;
+                coord[index].x = copy[j].x;
+                //coord[index].y = copy[j].y;
+                j++;
             }
             else{
                 coord[index].x = copy[j].x;
-                coord[index].y = copy[j].y;
+                //coord[index].y = copy[j].y;
                 j++;
+                index++;
+                coord[index].x = copy[i].x;
+                //coord[index].y = copy[i].y;
+                i++;
             }
         }
-        else if(j > end || (i < mid && copy[i].x < copy[j].x)){
+        else if(j >= end || (i < mid && copy[i].x < copy[j].x)){
             coord[index].x = copy[i].x;
-            coord[index].y = copy[i].y;
+            //coord[index].y = copy[i].y;
             i++;
         }
         else{
             coord[index].x = copy[j].x;
-            coord[index].y = copy[j].y;
+            //coord[index].y = copy[j].y;
             j++;
         }
         index++;
