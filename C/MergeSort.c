@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define length 20
+#define length 7
 
 /**
  * Merge Sort Algorithm as written in Algorithms in a nutshell 2nd Ed.
+ * 
+ * EDIT: Found out later that this doesn't accept duplicates in the
+ * array. Will need to find a work around for it...
  * 
  * Runtime:
  * 
@@ -67,7 +70,8 @@ void sort(int* array){
 int main(){
     // This is completely redundant but I don't want to read from a file in order to get these random
     // numbers. I'm also lazy and don't want to build a unique random number generator.
-    int temp[20] = {17, 36, 11, 2, 43, 79, 83, 69, 28, 63, 78, 31, 74, 37, 15, 81, 3, 50, 42, 86};
+    //int temp[20] = {17, 36, 11, 2, 43, 79, 83, 69, 28, 63, 78, 31, 74, 37, 15, 81, 3, 50, 42, 86};
+    int temp[7] = {2,2,5,1,4,3,7};
     int* array = (int*) malloc(sizeof(int) * length);
     int i;
     for(i = 0; i < length; i++)
