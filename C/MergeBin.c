@@ -15,68 +15,60 @@ FILE* openFile(char name[], char type[]){
     return fp;
 }
 
-void mergeSort(struct Coords* copy, struct Coords* coord, int start, int end){
-    if(end - start < 2){
-        return;
+void merge(struct Coords* coord, int start, int mid, int end){
+    int i, j, index = start;
+    int len1 = mid - start + 1;
+    int len2 = end - mid;
+    struct Coords* L = (struct Coords*)malloc(sizeof(struct Coords) * len1);
+    struct Coords* R = (struct Coords*)malloc(sizeof(struct Coords) * len2);
+
+    for(i = 0; i < len1; i++){
+        L[i].x = coord[start+i].x;
+        L[i].y = coord[start+i].y;
     }
 
-    if(end-start == 2){
-        if(coord[start].x > coord[start+1].x){
-            int temp = coord[start].x;
-            //int temp2 = coord[start].y;
-            coord[start].x = coord[start + 1].x;
-            //coord[start].y = coord[start + 1].y;
-            coord[start+1].x = temp;
-            //coord[start+1].y = temp;
-        }
-        return;
+    for(j = 0; j < len2; j++){
+        R[j].x = coord[mid+j+1].x;
+        R[j].y = coord[mid+j+1].y;
     }
 
-    int mid = (end+start)/2;
-    mergeSort(copy, coord, start, mid);
-    mergeSort(copy, coord, mid+1, end);
-
-    int i = start, j = mid, index = start;
-    // Sort two arrays into one array with same values going by
-    // the y value to determine which goes first.
-    while(index < end){
-        if(copy[i].x == copy[j].x){
-            if(copy[i].y < copy[j].y){
-                coord[index].x = copy[i].x;
-                //coord[index].y = copy[i].y;
-                i++;
-                index++;
-                coord[index].x = copy[j].x;
-                //coord[index].y = copy[j].y;
-                j++;
-            }
-            else{
-                coord[index].x = copy[j].x;
-                //coord[index].y = copy[j].y;
-                j++;
-                index++;
-                coord[index].x = copy[i].x;
-                //coord[index].y = copy[i].y;
-                i++;
-            }
-        }
-        else if(j >= end || (i < mid && copy[i].x < copy[j].x)){
-            coord[index].x = copy[i].x;
-            //coord[index].y = copy[i].y;
+    i = j = 0;
+    while(i < len1 && j < len2){
+        if(L[i].x <= R[j].x){
+            coord[index].x = L[i].x;
+            coord[index].y = L[i].y;
             i++;
         }
         else{
-            coord[index].x = copy[j].x;
-            //coord[index].y = copy[j].y;
+            coord[index].x = R[j].x;
+            coord[index].y = R[j].y;
             j++;
         }
         index++;
     }
+
+    while(i < len1){
+        coord[index].x = L[i].x;
+        coord[index].y = L[i].y;
+        i++;
+        index++;
+    }
+
+    while(j < len2){
+        coord[index].x = R[j].x;
+        coord[index].y = R[j].y;
+        j++;
+        index++;
+    }
 }
 
-void sort(struct Coords* coord, int start, int end){
-    struct Coords* copy = coord;
-    mergeSort(copy, coord, start, end);
+void mergeSort(struct Coords* coord, int start, int end){
+    if(start < end){
+        int mid = (end + start)/2;
+        mergeSort(coord, start, mid);
+        mergeSort(coord, mid+1, end);
+        merge(coord, start, mid, end);
+    }
 }
 
 int main(){
@@ -99,7 +91,11 @@ int main(){
     for(i = 0; i < numberOfElements; i++){
         printf("%d   %d\n", coord[i].x, coord[i].y);
     }
-    sort(coord, 0, numberOfElements);
+
+
+    mergeSort(coord, 0, numberOfElements-1);
+    
+    
     printf("\n\n");
     for(i = 0; i < numberOfElements; i++){
         printf("%d   %d\n", coord[i].x, coord[i].y);
