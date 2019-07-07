@@ -16,7 +16,7 @@ FILE* openFile(char name[], char type[]){
 }
 
 void writeToFile(struct Coords* coord, int num){
-    FILE* fp = fopen("out.txt", "w");
+    FILE* fp = fopen("IO/out.txt", "w");
     if(fp == NULL){
         printf("Couldn't open the file!");
         exit(1);
@@ -112,7 +112,7 @@ int binarySearch(struct Coords* coord, int start, int end, int x, int y){
 
 int main(){
     int numberOfElements, i = 0, x, y;
-    FILE* fp = openFile("in.txt", "r");
+    FILE* fp = openFile("IO/in.txt", "r");
 
     fscanf(fp, "%d", &numberOfElements);
     
