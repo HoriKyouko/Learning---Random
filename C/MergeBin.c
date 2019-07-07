@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAXCHAR 10000
-
 struct Coords{
     int x;
     int y;
@@ -10,9 +8,24 @@ struct Coords{
 
 FILE* openFile(char name[], char type[]){
     FILE* fp = fopen(name, type);
-    if(fp == NULL)
-        return NULL;
+    if(fp == NULL){
+        printf("Couldn't open the file!");
+        exit(1);
+    }
     return fp;
+}
+
+void writeToFile(struct Coords* coord, int num){
+    FILE* fp = fopen("out.txt", "w");
+    if(fp == NULL){
+        printf("Couldn't open the file!");
+        exit(1);
+    }
+    int i;
+    for(i = 0; i < num; i++)
+        fprintf(fp, "%d %d\n", coord[i].x, coord[i].y);
+
+    fclose(fp);
 }
 
 void merge(struct Coords* coord, int start, int mid, int end){
@@ -34,7 +47,17 @@ void merge(struct Coords* coord, int start, int mid, int end){
 
     i = j = 0;
     while(i < len1 && j < len2){
-        if(L[i].x <= R[j].x){
+        if(L[i].x == R[j].x && L[i].y > R[j].y){
+            coord[index].x = R[j].x;
+            coord[index].y = R[j].y;
+            j++;
+        }
+        else if(L[i].x == R[j].x && L[i].y < R[j].y){
+            coord[index].x = L[i].x;
+            coord[index].y = L[i].y;           
+            i++;
+        }
+        else if(L[i].x < R[j].x){
             coord[index].x = L[i].x;
             coord[index].y = L[i].y;
             i++;
@@ -60,6 +83,8 @@ void merge(struct Coords* coord, int start, int mid, int end){
         j++;
         index++;
     }
+    free(L);
+    free(R);
 }
 
 void mergeSort(struct Coords* coord, int start, int end){
@@ -71,36 +96,51 @@ void mergeSort(struct Coords* coord, int start, int end){
     }
 }
 
-int main(){
-    FILE* fp = openFile("in.txt", "r");
-    if(fp == NULL){
-        printf("Couldn't open the file");
-        return 0;
+int binarySearch(struct Coords* coord, int start, int end, int x, int y){
+    if(end >= start){
+        int mid = (start + end) / 2;
+        if(x == coord[mid].x && y == coord[mid].y){
+            return mid;
+        }
+        if(x < coord[mid].x){
+            return binarySearch(coord, start, mid-1, x, y);
+        }
+        return binarySearch(coord, mid+1, end, x, y);
     }
-    char str[MAXCHAR];
-    int numberOfElements, i = 0;
+    return -1;
+}
+
+int main(){
+    int numberOfElements, i = 0, x, y;
+    FILE* fp = openFile("in.txt", "r");
+
     fscanf(fp, "%d", &numberOfElements);
-    // Array of Coords.
+    
     struct Coords* coord = (struct Coords*)malloc(sizeof(struct Coords) * numberOfElements);
+    
     while (!feof(fp)){
-        int x, y;
         fscanf(fp, "%d %d", &coord[i].x, &coord[i].y);
         i++;
-    }
+    }  
     fclose(fp);
-    for(i = 0; i < numberOfElements; i++){
-        printf("%d   %d\n", coord[i].x, coord[i].y);
-    }
-
 
     mergeSort(coord, 0, numberOfElements-1);
-    
-    
-    printf("\n\n");
-    for(i = 0; i < numberOfElements; i++){
-        printf("%d   %d\n", coord[i].x, coord[i].y);
-    }
-    // Sort by x coordinates using mergeSort. If x coordinates are the same convert by y coordinates...
-    // Search the sorted coordinates continously until -999 and -999...
+
+    writeToFile(coord, numberOfElements);
+
+    do{
+        
+        printf("Search input (x y): ");
+        scanf("%d %d", &x, &y);
+
+        if(x != -999999 && y != -999999){
+            int temp = binarySearch(coord, 0, numberOfElements, x, y);
+            if(temp != -1)
+                printf("Found at record %d\n", temp+1);
+            else
+                printf("Not Found\n");
+        }
+    }while(x != -999999 && y != -999999);
+    free(coord);
     return 0;
 }
