@@ -8,11 +8,11 @@
  * 
  * GRAPH to DFS/BFS
  * 
- * 1
- * |
- * 2 - 3   8
- * |   |   |
- * 5 - 4 - 7
+ * 1                11
+ * |               /  \
+ * 2 - 3   8      12  13
+ * |   |   |       |
+ * 5 - 4 - 7      14
  *  \     /
  *   6  10
  *    \ |
@@ -26,7 +26,7 @@ struct Node{
 
 void DFS(int start, struct Node** graph, int *visited){
     struct Node* temp;
-    printf("%d\n", start+1);
+    printf("%d ", start+1);
     temp = graph[start];
     visited[start] = 1;
     while(temp != NULL){
