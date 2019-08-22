@@ -1,0 +1,15 @@
+Pre Order judy bill alice fred dave jane joe mary tom 
+In Order alice bill dave fred jane joe judy mary tom 
+Post Order alice dave joe jane fred bill tom mary judy 
+Search Phase:
+jane: Found, Items before: 4
+jones: Not found, Items before: 0
+judy: Found, Items before: 6
+Delete Phase:
+alice: deleted
+mary: deleted
+judy: deleted
+fred: deleted
+Pre Order tom bill jane dave joe 
+In Order bill dave jane joe tom 
+Post Order dave joe jane bill tom 
