@@ -247,3 +247,4 @@ export class WeatherPlugin extends Plugin {
       });
     });
   }
+}
