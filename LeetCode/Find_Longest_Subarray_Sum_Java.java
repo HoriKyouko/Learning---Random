@@ -33,23 +33,24 @@
 
     Returned value: {2,4}
  */
-
-int[] findLongestSubarraySum(int[] nums, int s){
-    int[] result = new int[] {-1};
-
-    int sum = 0;
-    int left = 0;
-    int right = 0;
-
-    while(right < nums.length){
-        sum += nums[right];
-        while(left < right && sum > s){
-            sum -= nums[left++];
+class longestSubArraySum{
+    int[] findLongestSubarraySum(int[] nums, int s){
+        int[] result = new int[] {-1};
+    
+        int sum = 0;
+        int left = 0;
+        int right = 0;
+    
+        while(right < nums.length){
+            sum += nums[right];
+            while(left < right && sum > s){
+                sum -= nums[left++];
+            }
+            if(sum == s && (result.length == 1 || result[1]-result[0] < right - left)){
+                result = new int[]{left + 1, right + 1};
+            }
+            right++;
         }
-        if(sum == s && (result.length == 1 || result[1]-result[0] < right - left)){
-            result = new int[]{left + 1, right + 1};
-        }
-        right++;
+        return result;
     }
-    return result;
 }
