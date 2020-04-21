@@ -11,22 +11,18 @@ class Solution {
     public int leftMostColumnWithOne(BinaryMatrix binaryMatrix) {
         List<Integer> size = binaryMatrix.dimensions();
         int[][] memo = new int[size.get(0)][size.get(1)];
+        
         int x = 0;
         int y = size.get(1)-1;
-        
         int output = -1;
         
         while(x < size.get(0) && y >= 0){
             int val = binaryMatrix.get(x,y);
-            if(val == 1){
-                output = y;
-                y--;
-            }
-            else{
+            if(val == 1)
+                output = y--;
+            else
                 x++;
-            }
         }
-        
         return output;
     }
 }
