@@ -16,8 +16,7 @@ class Solution {
         int output = -1;
         
         while(x < size.get(0) && y >= 0){
-            int val = binaryMatrix.get(x,y);
-            if(val == 1)
+            if(binaryMatrix.get(x,y) == 1)
                 output = y--;
             else
                 x++;
