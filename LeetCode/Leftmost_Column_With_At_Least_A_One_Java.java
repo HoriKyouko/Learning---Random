@@ -10,7 +10,6 @@
 class Solution {
     public int leftMostColumnWithOne(BinaryMatrix binaryMatrix) {
         List<Integer> size = binaryMatrix.dimensions();
-        int[][] memo = new int[size.get(0)][size.get(1)];
         
         int x = 0;
         int y = size.get(1)-1;
