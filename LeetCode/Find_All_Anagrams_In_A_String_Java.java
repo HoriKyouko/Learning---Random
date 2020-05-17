@@ -12,19 +12,17 @@ class Solution {
             
         */
         int [] count = new int[26];
+        int [] subcount = new int[26];
         List<Integer> output = new ArrayList();
         
         for(char c: p.toCharArray()) count[c-'a']++;
         
-        int len = s.length()-p.length();
-        
-        for(int i = 0; i <= len; i++){
-            int [] subcount = new int[26];
-            
-            for(char c: s.substring(i, i+p.length()).toCharArray()) subcount[c-'a']++;
-
+        for(int i = 0; i < s.length(); i++){
+            subcount[s.charAt(i) - 'a']++;
+            if(i >= p.length())
+                subcount[s.charAt(i-p.length())-'a']--;
             if(Arrays.equals(count,subcount))
-                output.add(i);
+                output.add(i - p.length() + 1);
         }
         
         return output;
