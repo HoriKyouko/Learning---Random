@@ -1,5 +1,6 @@
 public class Course_Schedule {
-    int[][] matrix = new int[numCourses][numCourses];
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        int[][] matrix = new int[numCourses][numCourses];
         int[] degree = new int[numCourses];
         
         // Setting up our Graph
