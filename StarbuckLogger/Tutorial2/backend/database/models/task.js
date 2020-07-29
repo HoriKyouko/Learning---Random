@@ -4,7 +4,8 @@ const TaskSchema = new mongoose.Schema({
     title:{
         type: String,
         trim: true,
-        minlength: 3
+        minlength: 1,
+        required: true
     },
     _listId: {
         type: mongoose.Types.ObjectId,

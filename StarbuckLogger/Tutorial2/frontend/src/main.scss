@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700&display=swap');
 
 $turqouise: #44ddd0;
-$blue: #276dd7;
-$dark-blue: #1985e4;
-$danger: #e27e7e;
+$green: #27d7a1;
 
+$light-green: #45f69e;
 $light: #f4f4f4;
+$dark-green: rgb(0, 100, 80);
 
+// Update Bulma's global variables
 $family-sans-serif: "Nunito", "sans-serif";
-$primary: $blue;
+$primary: $green;
 
+$link: $light-green;
+
+// Update Bulma's component variables
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
+// Set custom global styles (will be applied to whole app);
+
 html, body{
-  background: linear-gradient(to right top, $turqouise, $blue);
+  background: linear-gradient(to right top, $turqouise, $green);
   /*If error occurs delete two below and uncomment section below.*/
   font-family: "Nunito";
   height: 100%;
