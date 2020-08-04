@@ -4,7 +4,6 @@ public class Power_Of_Four {
         if(num > biggestPowerOfFour)
             return false;
         int sum = 1;
-        int count = 1;
         while (sum <= num){
             if(sum == num)
                 return true;
