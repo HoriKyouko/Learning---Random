@@ -14,11 +14,10 @@ export class NewTaskComponent implements OnInit {
   constructor(
     private taskService: TaskService,
     private router: Router,
-    private route: ActivatedRoute) {
-      this.route.params.subscribe((params: Params) =>this.listId = params.listId);
-    }
+    private route: ActivatedRoute) {  }
 
   ngOnInit(): void {
+    this.route.params.subscribe((params: Params) =>this.listId = params.listId);
   }
 
   addTask(value: string){

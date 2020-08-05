@@ -11,7 +11,7 @@ $dark-green: rgb(0, 100, 80);
 $family-sans-serif: "Nunito", "sans-serif";
 $primary: $green;
 
-$link: $light-green;
+$link: $turqouise;
 
 // Update Bulma's component variables
 $control-border-width: 2px;
@@ -32,12 +32,21 @@ html, body{
 }
 
 .title{
-  color: white;
+  color: black;
   font-family: "Lato";
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+.white-box {
+  padding: 35px;
+  background: white;
+  border-radius: 5px;
+  width: 350px;
+  max-width: 350px;
+}
+
 
 .centered-content{
   display: flex;
@@ -51,7 +60,7 @@ html, body{
   min-height: 200px;
   width: 100%;
   max-width: 580px;
-  background: #201d1d;
+  background: white;
   border-radius: 5px;
   padding: 35px;
 }

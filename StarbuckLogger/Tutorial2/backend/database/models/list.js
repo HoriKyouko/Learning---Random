@@ -1,10 +1,14 @@
 const mongoose = require('mongoose');
 
 const ListSchema = new mongoose.Schema({
-    title:{
+    title: {
         type: String,
         trim: true,
         minlength: 1,
+        required: true
+    },
+    _userId: {
+        type: mongoose.Types.ObjectId,
         required: true
     }
 });

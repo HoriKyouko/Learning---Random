@@ -14,7 +14,17 @@ export class TaskService {
   }
 
   createList(title: string){
+    // We want to send a web request to create a list.
     return this.webService.post('lists', {title});
+  }
+
+  updateList(id: string, title: string){
+    // We want to send a web request to update a list.
+    return this.webService.patch(`lists/${id}`, {title});
+  }
+
+  updateTask(listId: string, taskId: string, title: string){
+    return this.webService.patch(`lists/${listId}/tasks/${taskId}`, {title});
   }
 
   getTasks(listId: string){
@@ -22,6 +32,7 @@ export class TaskService {
   }
 
   createTask(listId: string, title: string){
+    // We want to send a web request to create a task.
     return this.webService.post(`lists/${listId}/tasks`, {title});
   }
 

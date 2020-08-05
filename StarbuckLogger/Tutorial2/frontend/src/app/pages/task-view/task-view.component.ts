@@ -21,18 +21,24 @@ export class TaskViewComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.taskService.getLists()
-      .subscribe((lists: List[]) => this.lists = lists);
-
     this.route.params.subscribe((params: Params) => {
       this.listId = params.listId;
-      if(!this.listId) return;
-      this.taskService.getTasks(this.listId).subscribe((tasks: Task[]) => this.tasks = tasks);
+      if(!this.listId)
+        this.tasks = undefined;
+      else
+        this.taskService.getTasks(this.listId).subscribe((tasks: Task[]) => this.tasks = tasks);
     });
+
+    this.taskService.getLists()
+      .subscribe((lists: List[]) => this.lists = lists);
   }
 
   onTaskClick(task: Task){
-    this.taskService.setCompleted(this.listId, task).subscribe(()=> task.completed = !task.completed);
+    // We want to set the task to completed.
+    this.taskService.setCompleted(this.listId, task).subscribe(()=> {
+      console.log("Completed Successfully!");
+      task.completed = !task.completed;
+    })
   }
 
   deleteTask(task: Task){
@@ -43,6 +49,21 @@ export class TaskViewComponent implements OnInit {
   deleteList(list: List){
     this.taskService.deleteList(list._id)
       .subscribe(() => this.lists = this.lists.filter(l => l._id != list._id));
+  }
+
+  onDeleteListClick() {
+    this.taskService.deleteList(this.listId).subscribe((res: any) =>{
+      this.router.navigate(['/lists']);
+      console.log(res);
+    })
+  }
+
+  onDeleteTaskClick(id: string) {
+    this.taskService.deleteTask(this.listId, id).subscribe((res: any) =>{
+      this.tasks = this.tasks.filter(val => val._id !== id);
+      //this.router.navigate(['/lists']);
+      console.log(res);
+    })
   }
 
   addTaskClick(){
