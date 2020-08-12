@@ -11,5 +11,4 @@ export class MenuViewComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

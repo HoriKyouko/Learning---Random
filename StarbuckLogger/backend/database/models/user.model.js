@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const bcrypt = require('bcryptjs');
 
+// JWT Secret
 const jwtSecret = "ThisIstemporaryUntilIunderstandsuperTokensio";
 
 const UserSchema = new mongoose.Schema({
@@ -42,6 +43,7 @@ UserSchema.methods.toJSON = function(){
 
 UserSchema.methods.generateAccessAuthToken = function() {
     const user = this;
+    console.log(user);
     return new Promise((resolve, reject) => {
         jwt.sign({_id: user._id.toHexString()}, jwtSecret, {expiresIn: "15m"}, (err, token) => {
             if(!err){
@@ -55,13 +57,16 @@ UserSchema.methods.generateAccessAuthToken = function() {
 }
 
 UserSchema.methods.generateRefreshAuthToken = function() {
+    // This method simply generates as 64 byte hex string - it doesn't save it to the database. saveSessionToDatabase() does that.
     return new Promise((resolve, reject) => {
         crypto.randomBytes(64, (err, buffer) => {
             if(!err){
                 let token = buffer.toString('hex');
+                //console.log(token);
                 return resolve(token);
             }
             else{
+                console.log(err);
                 reject();
             }
         })
@@ -70,7 +75,7 @@ UserSchema.methods.generateRefreshAuthToken = function() {
 
 UserSchema.methods.createSession = function() {
     let user = this;
-    return user.generateRefreshAuthToken.then((refreshToken) => {
+    return user.generateRefreshAuthToken().then((refreshToken) => {
         return saveSessionToDatabase(user, refreshToken);
     }).then((refreshToken) => {
         return refreshToken;
@@ -94,7 +99,7 @@ UserSchema.statics.findByIdAndToken = function(_id, token) {
 
 UserSchema.statics.findByCredentials = function(email, password) {
     let user = this;
-    return user.findOne({email}).then((user) => {
+    return user.findOne({ email }).then((user) => {
         if(!user){
             return Promise.reject();
         }

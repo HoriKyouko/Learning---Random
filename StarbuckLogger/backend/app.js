@@ -19,7 +19,8 @@ let authenticate = (req, res, next) => {
         if(err) {
             // there was an error
             // jwt is invalid - DO NOT AUTHENTICATE!
-            res.status(401).send(e);
+            console.log(err);
+            res.status(401).send(err);
         }
         else{
             req.user_id = decoded._id;
@@ -69,6 +70,7 @@ let verifySession = (req, res, next) => {
             });
         }
     }).catch((e) => {
+        console.log(e);
         res.status(401).send(e);
     })
 }
@@ -91,10 +93,12 @@ app.use((req, res, next) => {
 app.post('/users', (req, res) => {
     let body = req.body;
     let newUser = new User(body);
-
     newUser.save().then(() => {
         return newUser.createSession();
     }).then((refreshToken) => {
+        // Session created successfully - refreshToken returned.
+        // now we generate an access auth token for the user.
+        console.log(newUser);
         return newUser.generateAccessAuthToken().then((accessToken) =>{
             return {accessToken, refreshToken};
         });
@@ -103,6 +107,7 @@ app.post('/users', (req, res) => {
             .header('x-access-token', authToken.accessToken)
             .send(newUser);
     }).catch((e) => {
+        console.log(e);
         res.status(400).send(e);
     })
 })
@@ -112,11 +117,13 @@ app.post('/users', (req, res) => {
  * Purpose Login
  */
 app.post('/users/login', (req, res) => {
-    let email = res.body.email;
-    let password = res.body.password;
+    let email = req.body.email;
+    let password = req.body.password;
+    //console.log(email + ' ' + password);
     User.findByCredentials(email, password).then((user) => {
+        console.log(user);
         return user.createSession().then((refreshToken) => {
-            return new user.generateAccessAuthToken().then((accessToken) => {
+            return user.generateAccessAuthToken().then((accessToken) => {
                 return {accessToken, refreshToken};
             });
         }).then((authToken) => {
@@ -125,6 +132,7 @@ app.post('/users/login', (req, res) => {
                 .send(user);
         })
     }).catch((e) => {
+        console.log(e);
         res.status(400).send(e);
     });
 })
@@ -137,6 +145,7 @@ app.get('/users/me/access-token', verifySession, (req, res) => {
     req.userObject.generateAccessAuthToken().then((accessToken) => {
         res.header('x-access-token', accessToken).send({accessToken});
     }).catch((e) => {
+        console.log(e);
         res.status(400).send(e);
     })
 })
