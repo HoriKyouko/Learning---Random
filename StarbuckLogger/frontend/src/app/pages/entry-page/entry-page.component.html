@@ -1,25 +1,72 @@
-<mat-form-field appearance="fill">
-  <mat-label>Favorite food</mat-label>
-  <mat-select>
-    <mat-option *ngFor="let food of foods" [value]="food.value">
-      {{food.viewValue}}
-    </mat-option>
-  </mat-select>
-</mat-form-field>
+
 
 
 <div class="centered-content">
   <div class="white-box">
     <h1 class="title has-text-primary">Entry Form</h1>
     <div class="field">
-      <p class="control has-icons-left has-icons-right">
+      <mat-form-field appearance="fill">
+        <mat-label>Select item:</mat-label>
+        <mat-select [(value)]="selected">
+          <mat-option value="drink">Drink</mat-option>
+          <mat-option value="food">Food</mat-option>
+        </mat-select>
+      </mat-form-field>
 
-      </p>
-    </div>
-    <div class="field">
-      <p class="control has-icons-left">
+      <div [ngSwitch]="selected">
+        <div *ngSwitchCase="'drink'">
 
-      </p>
+          <form (submit)="addNewDrink(postForm)" #postForm="ngForm">
+            <mat-form-field>
+              <mat-label>Name of Drink</mat-label>
+              <input matInput type="text" name="drink" ngModel required placeholder="Ex. White Chocolate Mocha" #drink="ngModel">
+            </mat-form-field>
+
+            <mat-form-field>
+              <mat-label>Price of Drink</mat-label>
+              <input matInput type="number" name="price" ngModel required placeholder="Ex. 4.95" #price="ngModel">
+            </mat-form-field>
+
+            <mat-form-field>
+              <mat-label>Type of Drink</mat-label>
+              <input matInput type="text" name="type" ngModel required placeholder="Ex. Hot or Frappe" #type="ngModel">
+            </mat-form-field>
+
+            <mat-form-field>
+              <mat-label>Size of Drink</mat-label>
+              <input matInput type="text" name="size" ngModel required placeholder="Ex. Grande" #size="ngModel">
+            </mat-form-field>
+            <button class="button is-success has-text-white" style="margin-left: 200px;">
+              Submit
+            </button>
+          </form>
+
+
+        </div>
+        <div *ngSwitchCase="'food'">
+          <form (submit)="addNewFood(postForm)" #postForm="ngForm">
+            <mat-form-field>
+              <mat-label>Name of Food</mat-label>
+              <input matInput type="text" name="food" ngModel required placeholder="Ex. Bacon Gouda Sandwich" #food="ngModel">
+            </mat-form-field>
+
+            <mat-form-field>
+              <mat-label>Price of Food</mat-label>
+              <input matInput type="number" name="price" ngModel required placeholder="Ex. 4.95" #price="ngModel">
+            </mat-form-field>
+
+            <mat-form-field>
+              <mat-label>Review</mat-label>
+              <textarea matInput type="text" name="review" ngModel placeholder="Ex. Hot or Frappe" #review="ngModel"></textarea>
+            </mat-form-field>
+            <button class="button is-success has-text-white" type="submit" style="margin-left: 200px;">
+              Submit
+            </button>
+          </form>
+
+        </div>
+        <div *ngSwitchDefault></div>
+      </div>
     </div>
   </div>
 </div>

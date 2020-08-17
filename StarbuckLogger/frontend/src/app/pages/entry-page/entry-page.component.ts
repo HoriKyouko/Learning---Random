@@ -1,11 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
-interface Food {
-  value: string;
-  viewValue: string;
-}
-
 @Component({
   selector: 'app-entry-page',
   templateUrl: './entry-page.component.html',
@@ -13,15 +8,28 @@ interface Food {
 })
 
 export class EntryPageComponent implements OnInit {
-
-  foods: Food[] = [
-    {value: 'steak-0', viewValue: 'Steak'},
-    {value: 'pizza-1', viewValue: 'Pizza'},
-    {value: 'tacos-2', viewValue: 'Tacos'}
-  ];
-
+  selected: "";
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  addNewDrink(form: NgForm){
+    if(form.invalid){
+      console.log("Drink Form is invalid");
+      return;
+    }
+    console.log("Drink Form contents: \n" + form.value.drink
+     + "\n" + form.value.price + "\n" + form.value.type
+      + "\n" + form.value.size);
+  }
+
+  addNewFood(form: NgForm){
+    if(form.invalid){
+      console.log("Food Form is invalid");
+      return;
+    }
+    console.log("Food Form contents: \n" + form.value.food
+     + "\n" + form.value.price + "\n" + form.value.review);
   }
 }
