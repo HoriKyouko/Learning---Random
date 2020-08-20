@@ -4,7 +4,8 @@ const express = require('express');
 const app = express();
 // access to our database
 const mongoose = require('./database/mongoose');
-const { User } = require('./database/models');
+const { User, Drink, Food } = require('./database/models');
+const jwt = require('jsonwebtoken');
 
 app.use(express.json());
 
@@ -13,7 +14,8 @@ app.use(express.json());
 // check whether the request has a valid JWT token
 let authenticate = (req, res, next) => {
     let token = req.header('x-access-token');
-
+    //console.log(token);
+    //console.log(User.getJWTSecret());
     // verify the JWT
     jwt.verify(token, User.getJWTSecret(), (err, decoded) => {
         if(err) {
@@ -98,7 +100,7 @@ app.post('/users', (req, res) => {
     }).then((refreshToken) => {
         // Session created successfully - refreshToken returned.
         // now we generate an access auth token for the user.
-        console.log(newUser);
+        //console.log(newUser);
         return newUser.generateAccessAuthToken().then((accessToken) =>{
             return {accessToken, refreshToken};
         });
@@ -121,7 +123,7 @@ app.post('/users/login', (req, res) => {
     let password = req.body.password;
     //console.log(email + ' ' + password);
     User.findByCredentials(email, password).then((user) => {
-        console.log(user);
+        //console.log(user);
         return user.createSession().then((refreshToken) => {
             return user.generateAccessAuthToken().then((accessToken) => {
                 return {accessToken, refreshToken};
@@ -149,4 +151,20 @@ app.get('/users/me/access-token', verifySession, (req, res) => {
         res.status(400).send(e);
     })
 })
+
+/* Entry Routes */
+app.post('/drink', authenticate, (req, res) => {
+    (new Drink({'_userId': req.user_id, 'drink': req.body.drink, 'price': req.body.price, 'type': req.body.type, 'size': req.body.size}))
+    .save()
+    .then((drink) =>  res.send(drink))
+    .catch((error) => console.log(error));
+})
+
+app.post('/food', authenticate, (req, res) => {
+    (new Food({'_userId': req.user_id, 'food': req.body.food, 'price': req.body.price, 'review': req.body.review}))
+    .save()
+    .then((food) =>  res.send(food))
+    .catch((error) => console.log(error));
+})
+
 app.listen(3000, () => console.log('Server is connected on Port 3000'));

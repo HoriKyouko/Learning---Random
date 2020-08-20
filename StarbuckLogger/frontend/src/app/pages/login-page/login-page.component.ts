@@ -25,7 +25,7 @@ export class LoginPageComponent implements OnInit {
 
         this.router.navigate(['/menu']);
       }
-      console.log(res);
+      //console.log(res);
     });
   }
 

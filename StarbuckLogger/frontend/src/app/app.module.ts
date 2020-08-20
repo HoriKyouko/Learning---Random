@@ -12,9 +12,10 @@ import { AppComponent } from './app.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { SignupPageComponent } from './pages/signup-page/signup-page.component';
 import { MenuViewComponent } from './pages/menu-view/menu-view.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { EntryPageComponent } from './pages/entry-page/entry-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WebReqInterceptor } from './web-req.interceptor';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatInputModule,
     MatDividerModule
   ],
-  providers: [],
+  providers: [
+    {provide: HTTP_INTERCEPTORS, useClass: WebReqInterceptor, multi: true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
