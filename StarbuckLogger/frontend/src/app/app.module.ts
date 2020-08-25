@@ -16,6 +16,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { EntryPageComponent } from './pages/entry-page/entry-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WebReqInterceptor } from './web-req.interceptor';
+import { TableViewComponent } from './pages/table-view/table-view.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { WebReqInterceptor } from './web-req.interceptor';
     LoginPageComponent,
     SignupPageComponent,
     MenuViewComponent,
-    EntryPageComponent
+    EntryPageComponent,
+    TableViewComponent
   ],
   imports: [
     BrowserModule,

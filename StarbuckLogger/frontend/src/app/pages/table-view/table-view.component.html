@@ -1,0 +1,65 @@
+<div class="centered-content">
+  <div class="white-box">
+    <h1 class="title has-text-primary">Table Contents</h1>
+    <div class="field">
+      <mat-form-field appearance="fill">
+        <mat-label>Select item:</mat-label>
+        <mat-select [(value)]="selected">
+          <mat-option value="drink">Drink</mat-option>
+          <mat-option value="food">Food</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <div [ngSwitch]="selected">
+        <div *ngSwitchCase="'drink'">
+          <!-- Table for Drink Items-->
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Drink Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Type</th>
+                <th scope="col">Size</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let drink of drinksArray">
+                <td>{{drink.drinkName}}</td>
+                <td>{{drink.price}}</td>
+                <td>{{drink.type}}</td>
+                <td>{{drink.size}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div *ngSwitchCase="'food'">
+          <!-- Table for Food Items-->
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Food Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Review</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let food of foodsArray">
+                <td>{{food.foodName}}</td>
+                <td>{{food.price}}</td>
+                <td>{{food.review}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div *ngSwitchDefault></div>
+      </div>
+    </div>
+    <div class="field" style="display: flex; justify-content: flex-end;">
+      <p class="control">
+        <button class="button has-text-black" routerLink="/menu">
+          Back
+        </button>
+      </p>
+    </div>
+  </div>
+</div>

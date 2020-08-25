@@ -1,6 +1,6 @@
 export default class Food {
   _id: string;
-  food: string;
+  foodName: string;
   price: number;
   review: string;
 }

@@ -1,6 +1,6 @@
 export default class Drink {
   _id: string;
-  drink: string;
+  drinkName: string;
   price: number;
   type: string;
   size: string;
