@@ -5,7 +5,7 @@ const DrinkSchema = new mongoose.Schema({
         type: mongoose.Types.ObjectId,
         required: true
     },
-    drink: {
+    drinkName: {
         type: String,
         trim: true,
         minlength: 1,

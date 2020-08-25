@@ -153,15 +153,31 @@ app.get('/users/me/access-token', verifySession, (req, res) => {
 })
 
 /* Entry Routes */
+app.get('/drink', authenticate, (req, res) =>{
+    // We want to return an array of all the lists in the database that belong to the authenticated user.
+    Drink.find({
+        _userId: req.user_id
+    }).then((drink) => res.send(drink))
+      .catch((error) => console.log(error));
+}); 
+
 app.post('/drink', authenticate, (req, res) => {
-    (new Drink({'_userId': req.user_id, 'drink': req.body.drink, 'price': req.body.price, 'type': req.body.type, 'size': req.body.size}))
+    (new Drink({'_userId': req.user_id, 'drinkName': req.body.drinkName, 'price': req.body.price, 'type': req.body.type, 'size': req.body.size}))
     .save()
     .then((drink) =>  res.send(drink))
     .catch((error) => console.log(error));
 })
 
+app.get('/food', authenticate, (req, res) =>{
+    // We want to return an array of all the lists in the database that belong to the authenticated user.
+    Food.find({
+        _userId: req.user_id
+    }).then((food) => res.send(food))
+      .catch((error) => console.log(error));
+});
+
 app.post('/food', authenticate, (req, res) => {
-    (new Food({'_userId': req.user_id, 'food': req.body.food, 'price': req.body.price, 'review': req.body.review}))
+    (new Food({'_userId': req.user_id, 'foodName': req.body.foodName, 'price': req.body.price, 'review': req.body.review}))
     .save()
     .then((food) =>  res.send(food))
     .catch((error) => console.log(error));
