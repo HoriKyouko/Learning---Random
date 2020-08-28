@@ -7,6 +7,8 @@ const mongoose = require('./database/mongoose');
 const { User, Drink, Food } = require('./database/models');
 const jwt = require('jsonwebtoken');
 
+const port = 3000;
+
 app.use(express.json());
 
 /* Middleware */
@@ -183,4 +185,4 @@ app.post('/food', authenticate, (req, res) => {
     .catch((error) => console.log(error));
 })
 
-app.listen(3000, () => console.log('Server is connected on Port 3000'));
+app.listen(port, () => console.log('Server is connected on Port ' + port));
