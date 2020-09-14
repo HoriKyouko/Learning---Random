@@ -12,8 +12,8 @@
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.19",
-    "mongoose": "^5.9.27",
-    "supertokens-node": "^2.2.2"
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.5",
+    "supertokens-node": "^2.3.0"
   }
 }
