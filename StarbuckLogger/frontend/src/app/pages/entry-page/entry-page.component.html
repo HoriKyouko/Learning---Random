@@ -2,7 +2,34 @@
   <div class="white-box">
     <h1 class="title has-text-primary">Entry Form</h1>
     <div class="field">
-      <mat-form-field appearance="fill">
+      <!-- Try to make it look like the Starbucks app Order menu.
+
+        Drink Category
+          Drink Sub-Category 1
+          Drink Sub-Category 2
+          Drink Sub-Category 3
+          Drink Sub-Category n
+        Food Category
+          Food Sub-Category 1
+          Food Sub-Category 2
+          Food Sub-Category 3
+          Food Sub-Category n
+
+        Clicking a sub-category should take them to a new page that is specific to
+        that category.
+
+        Sub Category
+          Item 1
+          <mat-divider></mat-divider>
+          Item 2
+          <mat-divider></mat-divider>
+          Item 3
+          <mat-divider></mat-divider>
+          Item N
+      -->
+
+      <!-- Original way of doing it.-->
+      <!--<mat-form-field appearance="fill">
         <mat-label>Select item:</mat-label>
         <mat-select [(value)]="selected">
           <mat-option value="drink">Drink</mat-option>
@@ -63,7 +90,7 @@
 
         </div>
         <div *ngSwitchDefault></div>
-      </div>
+      </div>-->
     </div>
   </div>
 </div>

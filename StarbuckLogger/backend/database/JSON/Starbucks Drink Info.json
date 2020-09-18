@@ -1,0 +1,2298 @@
+[
+    {
+        "Name": "Caffè Americano",
+        "Calories": 15,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "2 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "225 mg",
+        "Price": 2.95
+    },
+    {
+        "Name": "Blonde Roast",
+        "Calories": 5,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "360 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Caffè Misto",
+        "Calories": 110,
+        "Calories From Fat": 35,
+        "Total Fat": [
+            {
+                "Total Fat": "4 g"
+            },
+            {
+                "Saturated Fat": "2 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "100 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "10 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "10 g" 
+            } 
+        ],
+        "Protein": "7 g",
+        "Caffeine": "150 mg",
+        "Price": 3.15
+    },
+    {
+        "Name": "Featured Starbucks® Dark Roast Coffee",
+        "Calories": 5,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "260 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Pike Place® Roast",
+        "Calories": 5,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "310 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Decaf Pike Place® Roast",
+        "Calories": 5,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "25 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Cappuccino",
+        "Calories": 120,
+        "Calories From Fat": 35,
+        "Total Fat": [
+            {
+                "Total Fat": "4 g"
+            },
+            {
+                "Saturated Fat": "2 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "100 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "12 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "10 g" 
+            } 
+        ],
+        "Protein": "8 g",
+        "Caffeine": "150 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Espresso",
+        "Calories": 10,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "2 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "150 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Espresso Con Panna",
+        "Calories": 35,
+        "Calories From Fat": 20,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "3 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "1 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "150 mg",
+        "Price": 2.55
+    },
+    {
+        "Name": "Flat White",
+        "Calories": 170,
+        "Calories From Fat": 80,
+        "Total Fat": [
+            {
+                "Total Fat": "9 g"
+            },
+            {
+                "Saturated Fat": "5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "115 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "14 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "13 g" 
+            } 
+        ],
+        "Protein": "9 g",
+        "Caffeine": "130 mg",
+        "Price": 4.25
+    },
+    {
+        "Name": "Almondmilk Honey Flat White with Starbucks® Blonde Espresso",
+        "Calories": 120,
+        "Calories From Fat": 35,
+        "Total Fat": [
+            {
+                "Total Fat": "4 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "100 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "22 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "18 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Pumpkin Spice Latte",
+        "Calories": 380,
+        "Calories From Fat": 120,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "240 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "52 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "50 g" 
+            } 
+        ],
+        "Protein": "14 g",
+        "Caffeine": "150 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Coconutmilk Cascara Latte with Starbucks® Blonde Espresso",
+        "Calories": 130,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "7 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "160 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "14 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "12 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "170 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Caffè Latte",
+        "Calories": 190,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "7 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "30 mg",
+        "Sodium": "170 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "19 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "18 g" 
+            } 
+        ],
+        "Protein": "13 g",
+        "Caffeine": "150 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Cinnamon Dolce Latte",
+        "Calories": 340,
+        "Calories From Fat": 120,
+        "Total Fat": [
+            {
+                "Total Fat": "13 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "160 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "44 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "41 g" 
+            } 
+        ],
+        "Protein": "12 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Starbucks® Blonde Vanilla Latte",
+        "Calories": 250,
+        "Calories From Fat": 60,
+        "Total Fat": [
+            {
+                "Total Fat": "6 g"
+            },
+            {
+                "Saturated Fat": "3.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "150 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "37 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "35 g" 
+            } 
+        ],
+        "Protein": "12 g",
+        "Caffeine": "170 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Cocoa Cloud Macchiato",
+        "Calories": 300,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "7 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "30 mg",
+        "Sodium": "270 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "46 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "41 g" 
+            } 
+        ],
+        "Protein": "12 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Caramel Cloud Macchiato",
+        "Calories": 280,
+        "Calories From Fat": 60,
+        "Total Fat": [
+            {
+                "Total Fat": "7 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "200 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "44 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "39 g" 
+            } 
+        ],
+        "Protein": "11 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Caramel Macchiato",
+        "Calories": 250,
+        "Calories From Fat": 60,
+        "Total Fat": [
+            {
+                "Total Fat": "7 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "150 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "35 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "33 g" 
+            } 
+        ],
+        "Protein": "10 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Espresso Macchiato",
+        "Calories": 15,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "2 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "150 mg",
+        "Price": 2.55
+    },
+    {
+        "Name": "Salted Caramel Mocha",
+        "Calories": 470,
+        "Calories From Fat": 150,
+        "Total Fat": [
+            {
+                "Total Fat": "16 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "370 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "68 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "59 g" 
+            } 
+        ],
+        "Protein": "13 g",
+        "Caffeine": "175 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Caffè Mocha",
+        "Calories": 360,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "150 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "44 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "35 g" 
+            } 
+        ],
+        "Protein": "13 g",
+        "Caffeine": "175 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "White Chocolate Mocha",
+        "Calories": 430,
+        "Calories From Fat": 160,
+        "Total Fat": [
+            {
+                "Total Fat": "18 g"
+            },
+            {
+                "Saturated Fat": "12 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "250 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "55 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "53 g" 
+            } 
+        ],
+        "Protein": "14 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Chai Latte",
+        "Calories": 240,
+        "Calories From Fat": 40,
+        "Total Fat": [
+            {
+                "Total Fat": "4.5 g"
+            },
+            {
+                "Saturated Fat": "2 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "115 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "45 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "42 g" 
+            } 
+        ],
+        "Protein": "8 g",
+        "Caffeine": "95 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Chai Tea",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "40 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Earl Grey Tea",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "40 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "London Fog Tea Latte",
+        "Calories": 180,
+        "Calories From Fat": 40,
+        "Total Fat": [
+            {
+                "Total Fat": "4 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "105 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "29 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "29 g" 
+            } 
+        ],
+        "Protein": "7 g",
+        "Caffeine": "40 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Royal English Breakfast Tea",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "40 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Royal English Breakfast Tea Latte",
+        "Calories": 150,
+        "Calories From Fat": 40,
+        "Total Fat": [
+            {
+                "Total Fat": "4 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "105 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "21 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "21 g" 
+            } 
+        ],
+        "Protein": "7 g",
+        "Caffeine": "40 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Rev Up Brewed Wellness Tea",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "40 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Emperor’s Clouds & Mist®",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "16 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Matcha Green Tea Latte",
+        "Calories": 240,
+        "Calories From Fat": 60,
+        "Total Fat": [
+            {
+                "Total Fat": "7 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "160 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "34 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "32 g" 
+            } 
+        ],
+        "Protein": "12 g",
+        "Caffeine": "80 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Honey Citrus Mint Tea",
+        "Calories": 130,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "32 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "30 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "16 mg",
+        "Price": 3.45
+    },
+    {
+        "Name": "Jade Citrus Mint® Brewed Tea",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "40 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Mint Majesty®",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Peach Tranquility®",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Salted Caramel Hot Chocolate",
+        "Calories": 460,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "16 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "350 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "66 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "59 g" 
+            } 
+        ],
+        "Protein": "13 g",
+        "Caffeine": "25 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Hot Chocolate",
+        "Calories": 370,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "160 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "44 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "38 g" 
+            } 
+        ],
+        "Protein": "14 g",
+        "Caffeine": "25 mg",
+        "Price": 3.45
+    },
+    {
+        "Name": "White Hot Chocolate",
+        "Calories": 440,
+        "Calories From Fat": 170,
+        "Total Fat": [
+            {
+                "Total Fat": "19 g"
+            },
+            {
+                "Saturated Fat": "12 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "260 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "55 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "55 g" 
+            } 
+        ],
+        "Protein": "15 g",
+        "Caffeine": "0 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Caramel Apple Spice",
+        "Calories": 380,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "30 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "77 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "71 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "0 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Steamed Apple Spice",
+        "Calories": 220,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "20 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "55 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "50 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 2.65
+    },
+    {
+        "Name": "Pumpkin Spice Crème",
+        "Calories": 400,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "250 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "53 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "52 g" 
+            } 
+        ],
+        "Protein": "15 g",
+        "Caffeine": "0 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Cinnamon Dolce Crème",
+        "Calories": 350,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "180 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "44 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "43 g" 
+            } 
+        ],
+        "Protein": "13 g",
+        "Caffeine": "0 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Steamed Milk",
+        "Calories": 200,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "4 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "30 mg",
+        "Sodium": "190 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "19 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "19 g" 
+            } 
+        ],
+        "Protein": "13 g",
+        "Caffeine": "0 mg",
+        "Price": 2.65
+    },
+    {
+        "Name": "Vanilla Crème",
+        "Calories": 330,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "180 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "39 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "38 g" 
+            } 
+        ],
+        "Protein": "13 g",
+        "Caffeine": "0 mg",
+        "Price": 2.65
+    },
+    {
+        "Name": "Pumpkin Spice Coffee Frappuccino® Blended Beverage",
+        "Calories": 420,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "280 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "67 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "66 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Caffeine": "100 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Salted Caramel Mocha Coffee Frappuccino® Blended Beverage",
+        "Calories": 420,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "360 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "67 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "63 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Caffeine": "100 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Mocha Cookie Crumble Frappuccino® Blended Beverage",
+        "Calories": 470,
+        "Calories From Fat": 200,
+        "Total Fat": [
+            {
+                "Total Fat": "23 g"
+            },
+            {
+                "Saturated Fat": "15 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "260 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "63 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "57 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Caffeine": "95 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Caramel Ribbon Crunch Frappuccino® Blended Beverage",
+        "Calories": 470,
+        "Calories From Fat": 180,
+        "Total Fat": [
+            {
+                "Total Fat": "20 g"
+            },
+            {
+                "Saturated Fat": "13 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "65 mg",
+        "Sodium": "280 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "66 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "62 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Caffeine": "85 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Espresso Frappuccino® Blended Beverage",
+        "Calories": 210,
+        "Calories From Fat": 20,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "5 mg",
+        "Sodium": "210 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "43 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "42 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Caffeine": "155 mg",
+        "Price": 5.35
+    },
+    {
+        "Name": "Caffè Vanilla Frappuccino® Blended Beverage",
+        "Calories": 400,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "230 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "65 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "64 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Caffeine": "95 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Coffee Frappuccino® Blended Beverage",
+        "Calories": 230,
+        "Calories From Fat": 30,
+        "Total Fat": [
+            {
+                "Total Fat": "3 g"
+            },
+            {
+                "Saturated Fat": "2 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "230 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "46 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "45 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Caffeine": "95 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Caramel Frappuccino® Blended Beverage",
+        "Calories": 370,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "230 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "57 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "55 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Caffeine": "90 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Mocha Frappuccino® Blended Beverage",
+        "Calories": 370,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "220 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "55 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "52 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Caffeine": "100 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Java Chip Frappuccino® Blended Beverage",
+        "Calories": 440,
+        "Calories From Fat": 160,
+        "Total Fat": [
+            {
+                "Total Fat": "18 g"
+            },
+            {
+                "Saturated Fat": "12 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "260 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "65 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "60 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Caffeine": "105 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "White Chocolate Mocha Frappuccino® Blended Beverage",
+        "Calories": 410,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "16 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "260 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "63 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "62 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Caffeine": "95 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Pumpkin Spice Crème Frappuccino® Blended Beverage",
+        "Calories": 350,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "270 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "48 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "48 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Caffeine": "0 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Salted Caramel Mocha Crème Frappuccino® Blended Beverage",
+        "Calories": 400,
+        "Calories From Fat": 150,
+        "Total Fat": [
+            {
+                "Total Fat": "17 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "380 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "55 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "53 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Caffeine": "10 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Chocolate Cookie Crumble Crème Frappuccino®",
+        "Calories": 450,
+        "Calories From Fat": 220,
+        "Total Fat": [
+            {
+                "Total Fat": "24 g"
+            },
+            {
+                "Saturated Fat": "16 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "60 mg",
+        "Sodium": "290 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "54 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "48 g" 
+            } 
+        ],
+        "Protein": "7 g",
+        "Caffeine": "15 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage",
+        "Calories": 420,
+        "Calories From Fat": 190,
+        "Total Fat": [
+            {
+                "Total Fat": "21 g"
+            },
+            {
+                "Saturated Fat": "13 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "65 mg",
+        "Sodium": "270 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "52 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "48 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Caffeine": "0 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Strawberry Frappuccino® Blended Beverage",
+        "Calories": 370,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "240 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "53 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "52 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Caffeine": "0 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Chai Crème Frappuccino® Blended Beverage",
+        "Calories": 340,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "230 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "47 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "46 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Caffeine": "40 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Double Chocolaty Chip Crème Frappuccino® Blended Beverage",
+        "Calories": 400,
+        "Calories From Fat": 170,
+        "Total Fat": [
+            {
+                "Total Fat": "19 g"
+            },
+            {
+                "Saturated Fat": "13 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "270 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "52 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "48 g" 
+            } 
+        ],
+        "Protein": "7 g",
+        "Caffeine": "15 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Matcha Green Tea Crème Frappuccino® Blended Beverage",
+        "Calories": 410,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "240 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "63 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "62 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Caffeine": "70 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Vanilla Bean Crème Frappuccino® Blended Beverage",
+        "Calories": 370,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "250 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "54 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "53 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Caffeine": "0 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "White Chocolate Crème Frappuccino® Blended Beverage",
+        "Calories": 380,
+        "Calories From Fat": 150,
+        "Total Fat": [
+            {
+                "Total Fat": "17 g"
+            },
+            {
+                "Saturated Fat": "11 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "280 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "50 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "50 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Caffeine": "0 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Pumpkin Cream Cold Brew",
+        "Calories": 250,
+        "Calories From Fat": 110,
+        "Total Fat": [
+            {
+                "Total Fat": "12 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "40 mg",
+        "Sodium": "55 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "31 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "31 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Caffeine": "185 mg",
+        "Price": 4.75
+    },
+    {
+        "Name": "Cold Brew with Cinnamon Almondmilk Foam",
+        "Calories": 40,
+        "Calories From Fat": 10,
+        "Total Fat": [
+            {
+                "Total Fat": "1 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "35 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "7 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "6 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "205 mg",
+        "Price": 4.75
+    },
+    {
+        "Name": "Cold Brew with Dark Cocoa Almondmilk Foam",
+        "Calories": 40,
+        "Calories From Fat": 15,
+        "Total Fat": [
+            {
+                "Total Fat": "1.5 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "6 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "4 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "210 mg",
+        "Price": 4.75
+    },
+    {
+        "Name": "Salted Caramel Cream Cold Brew",
+        "Calories": 230,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "330 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "23 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Caffeine": "185 mg",
+        "Price": 4.75
+    },
+    {
+        "Name": "Starbucks® Cold Brew Coffee",
+        "Calories": 5,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "15 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "205 mg",
+        "Price": 3.65
+    },
+    {
+        "Name": "Vanilla Sweet Cream Cold Brew",
+        "Calories": 110,
+        "Calories From Fat": 50,
+        "Total Fat": [
+            {
+                "Total Fat": "5 g"
+            },
+            {
+                "Saturated Fat": "3.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "20 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "14 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "14 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "185 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Starbucks® Cold Brew Coffee with Milk",
+        "Calories": 35,
+        "Calories From Fat": 10,
+        "Total Fat": [
+            {
+                "Total Fat": "1.5 g"
+            },
+            {
+                "Saturated Fat": "1 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "5 mg",
+        "Sodium": "40 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "3 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "3 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Caffeine": "205 mg",
+        "Price": 3.65
+    },
+    {
+        "Name": "Pumpkin Cream Nitro Cold Brew",
+        "Calories": 250,
+        "Calories From Fat": 110,
+        "Total Fat": [
+            {
+                "Total Fat": "12 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "40 mg",
+        "Sodium": "55 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "31 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "31 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Caffeine": "265 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Nitro Cold Brew with Cinnamon Almondmilk Foam",
+        "Calories": 40,
+        "Calories From Fat": 10,
+        "Total Fat": [
+            {
+                "Total Fat": "1 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "35 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "7 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "6 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "275 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Nitro Cold Brew with Dark Cocoa Almondmilk Foam",
+        "Calories": 40,
+        "Calories From Fat": 15,
+        "Total Fat": [
+            {
+                "Total Fat": "1.5 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "35 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "6 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "4 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "280 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Salted Caramel Cream Nitro Cold Brew",
+        "Calories": 230,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "330 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "23 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Caffeine": "270 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Nitro Cold Brew",
+        "Calories": 5,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "280 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Nitro Cold Brew with Sweet Cream",
+        "Calories": 70,
+        "Calories From Fat": 50,
+        "Total Fat": [
+            {
+                "Total Fat": "5 g"
+            },
+            {
+                "Saturated Fat": "3.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "20 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "4 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "4 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "265 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Iced Caffè Americano",
+        "Calories": 15,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "15 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "2 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "225 mg",
+        "Price": 2.95
+    },
+    {
+        "Name": "Iced Coffee",
+        "Calories": 80,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "20 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "20 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "165 mg",
+        "Price": 2.95
+    },
+    {
+        "Name": "Iced Coffee with Milk",
+        "Calories": 110,
+        "Calories From Fat": 10,
+        "Total Fat": [
+            {
+                "Total Fat": "1.5 g"
+            },
+            {
+                "Saturated Fat": "1 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "5 mg",
+        "Sodium": "40 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "23 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Caffeine": "125 mg",
+        "Price": 2.95
+    }
+]
