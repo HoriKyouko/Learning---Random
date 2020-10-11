@@ -2294,5 +2294,1797 @@
         "Protein": "2 g",
         "Caffeine": "125 mg",
         "Price": 2.95
+    },
+    {
+        "Name": "Starbucks Doubleshot® on Ice",
+        "Calories": 100,
+        "Calories From Fat": 10,
+        "Total Fat": [
+            {
+                "Total Fat": "1 g"
+            },
+            {
+                "Saturated Fat": "1 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "5 mg",
+        "Sodium": "40 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "20 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "18 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Caffeine": "225 mg",
+        "Price": 3.75
+    },
+    {
+        "Name": "Iced Espresso",
+        "Calories": 10,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "2 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "150 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Starbucks® Blonde Doubleshot® On Ice",
+        "Calories": 105,
+        "Calories From Fat": 10,
+        "Total Fat": [
+            {
+                "Total Fat": "1 g"
+            },
+            {
+                "Saturated Fat": "1 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "5 mg",
+        "Sodium": "50 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "20 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "18 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Caffeine": "400 mg",
+        "Price": 3.75
+    },
+    {
+        "Name": "Iced Flat White",
+        "Calories": 150,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "110 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "13 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "11 g" 
+            } 
+        ],
+        "Protein": "8 g",
+        "Caffeine": "130 mg",
+        "Price": 4.75
+    },
+    {
+        "Name": "Iced Almondmilk Honey Flat White with Starbucks® Blonde Espresso",
+        "Calories": 100,
+        "Calories From Fat": 25,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "70 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "20 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "17 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Iced Pumpkin Spice Latte",
+        "Calories": 370,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "60 mg",
+        "Sodium": "190 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "48 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "46 g" 
+            } 
+        ],
+        "Protein": "11 g",
+        "Caffeine": "150 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Iced Caffè Latte",
+        "Calories": 130,
+        "Calories From Fat": 40,
+        "Total Fat": [
+            {
+                "Total Fat": "4.5 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "115 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "13 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "11 g" 
+            } 
+        ],
+        "Protein": "8 g",
+        "Caffeine": "150 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Iced Cinnamon Dolce Latte",
+        "Calories": 290,
+        "Calories From Fat": 110,
+        "Total Fat": [
+            {
+                "Total Fat": "12 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "40 mg",
+        "Sodium": "115 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "39 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "36 g" 
+            } 
+        ],
+        "Protein": "8 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Iced Starbucks® Blonde Vanilla Latte",
+        "Calories": 190,
+        "Calories From Fat": 35,
+        "Total Fat": [
+            {
+                "Total Fat": "4 g"
+            },
+            {
+                "Saturated Fat": "2 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "100 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "30 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "28 g" 
+            } 
+        ],
+        "Protein": "7 g",
+        "Caffeine": "170 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Iced Coconutmilk Cascara Latte with Starbucks® Blonde Espresso",
+        "Calories": 90,
+        "Calories From Fat": 45,
+        "Total Fat": [
+            {
+                "Total Fat": "5 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "115 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "10 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "8 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "170 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Iced Cocoa Cloud Macchiato",
+        "Calories": 200,
+        "Calories From Fat": 40,
+        "Total Fat": [
+            {
+                "Total Fat": "4.5 g"
+            },
+            {
+                "Saturated Fat": "3 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "160 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "34 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "29 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Iced Caramel Cloud Macchiato",
+        "Calories": 190,
+        "Calories From Fat": 40,
+        "Total Fat": [
+            {
+                "Total Fat": "4 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "115 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "32 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "28 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Iced Caramel Macchiato",
+        "Calories": 250,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "7 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "150 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "37 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "34 g" 
+            } 
+        ],
+        "Protein": "10 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Iced Salted Caramel Mocha",
+        "Calories": 450,
+        "Calories From Fat": 160,
+        "Total Fat": [
+            {
+                "Total Fat": "18 g"
+            },
+            {
+                "Saturated Fat": "11 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "320 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "64 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "55 g" 
+            } 
+        ],
+        "Protein": "9 g",
+        "Caffeine": "175 mg",
+        "Price": 5.25
+    },
+    {
+        "Name": "Iced Caffè Mocha",
+        "Calories": 350,
+        "Calories From Fat": 150,
+        "Total Fat": [
+            {
+                "Total Fat": "17 g"
+            },
+            {
+                "Saturated Fat": "11 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "100 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "39 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "30 g" 
+            } 
+        ],
+        "Protein": "10 g",
+        "Caffeine": "175 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Iced White Chocolate Mocha",
+        "Calories": 420,
+        "Calories From Fat": 180,
+        "Total Fat": [
+            {
+                "Total Fat": "20 g"
+            },
+            {
+                "Saturated Fat": "13 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "60 mg",
+        "Sodium": "200 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "50 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "49 g" 
+            } 
+        ],
+        "Protein": "11 g",
+        "Caffeine": "150 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Teavana(TM/MC) Sparkling Blood Orange Mango White Tea",
+        "Calories": 80,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "21 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "20 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "40 mg",
+        "Price": 2.95
+    },
+    {
+        "Name": "Teavana® Mango Black Tea",
+        "Calories": 100,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "24 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "22 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "55 mg",
+        "Price": 2.95
+    },
+    {
+        "Name": "Iced Guava Black Tea",
+        "Calories": 130,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "20 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "33 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "29 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "25 mg",
+        "Price": 3.25
+    },
+    {
+        "Name": "Iced Guava Black Tea",
+        "Calories": 130,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "20 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "33 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "29 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "25 mg",
+        "Price": 3.25
+    },
+    {
+        "Name": "Guava Black Iced Tea Lemonade",
+        "Calories": 130,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "20 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "33 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "29 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "25 mg",
+        "Price": 3.75
+    },
+    {
+        "Name": "Iced Black Tea",
+        "Calories": 45,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "11 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "11 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "25 mg",
+        "Price": 2.65
+    },
+    {
+        "Name": "Iced Black Tea Lemonade",
+        "Calories": 90,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "22 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "25 mg",
+        "Price": 3.45
+    },
+    {
+        "Name": "Iced Royal English Breakfast Tea Latte",
+        "Calories": 140,
+        "Calories From Fat": 20,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "70 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "25 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "25 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Caffeine": "40 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Iced London Fog Tea Latte",
+        "Calories": 140,
+        "Calories From Fat": 20,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "70 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "25 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "25 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Caffeine": "40 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Iced Chai Tea Latte",
+        "Calories": 240,
+        "Calories From Fat": 40,
+        "Total Fat": [
+            {
+                "Total Fat": "4 g"
+            },
+            {
+                "Saturated Fat": "2 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "110 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "44 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "42 g" 
+            } 
+        ],
+        "Protein": "7 g",
+        "Caffeine": "95 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Iced Peach Green Tea",
+        "Calories": 100,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "20 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "25 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "23 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "25 mg",
+        "Price": 3.25
+    },
+    {
+        "Name": "Iced Peach Green Tea Lemonade",
+        "Calories": 130,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "20 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "31 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "29 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "25 mg",
+        "Price": 3.75
+    },
+    {
+        "Name": "Iced Matcha Green Tea Latte",
+        "Calories": 200,
+        "Calories From Fat": 45,
+        "Total Fat": [
+            {
+                "Total Fat": "5 g"
+            },
+            {
+                "Saturated Fat": "3 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "120 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "29 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "28 g" 
+            } 
+        ],
+        "Protein": "9 g",
+        "Caffeine": "80 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Iced Green Tea",
+        "Calories": 45,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "11 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "11 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "25 mg",
+        "Price": 2.65
+    },
+    {
+        "Name": "Iced Green Tea Lemonade",
+        "Calories": 90,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "22 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "25 mg",
+        "Price": 3.45
+    },
+    {
+        "Name": "Matcha Lemonade",
+        "Calories": 120,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "29 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "27 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "80 mg",
+        "Price": 3.45
+    },
+    {
+        "Name": "Iced Passion Tango™ Tea",
+        "Calories": 45,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "11 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "11 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 2.65
+    },
+    {
+        "Name": "Iced Passion Tango® Tea Lemonade",
+        "Calories": 90,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "22 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 3.45
+    },
+    {
+        "Name": "Iced Guava Passionfruit Drink",
+        "Calories": 190,
+        "Calories From Fat": 25,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "85 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "41 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "33 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "0 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Iced Pineapple Matcha Drink",
+        "Calories": 170,
+        "Calories From Fat": 45,
+        "Total Fat": [
+            {
+                "Total Fat": "5 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "115 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "30 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "27 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Caffeine": "80 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Iced Golden Ginger Drink",
+        "Calories": 140,
+        "Calories From Fat": 45,
+        "Total Fat": [
+            {
+                "Total Fat": "5 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "120 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "22 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "19 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "0 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Star Drink",
+        "Calories": 130,
+        "Calories From Fat": 25,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "65 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "26 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "22 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "45 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Kiwi Starfruit Starbucks Refreshers® Beverage",
+        "Calories": 90,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "15 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "22 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "18 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "45 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Kiwi Starfruit Lemonade Starbucks Refreshers® Beverage",
+        "Calories": 140,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "34 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "30 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "45 mg",
+        "Price": 4.25
+    },
+    {
+        "Name": "Dragon Drink",
+        "Calories": 130,
+        "Calories From Fat": 25,
+        "Total Fat": [
+            {
+                "Total Fat": "3 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "60 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "26 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "23 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "45 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Mango Dragonfruit Starbucks Refreshers® Beverage",
+        "Calories": 90,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "15 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "21 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "19 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "45 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage",
+        "Calories": 140,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "15 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "33 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "30 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "45 mg",
+        "Price": 4.25
+    },
+    {
+        "Name": "Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
+        "Calories": 140,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "15 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "35 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "32 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "45 mg",
+        "Price": 4.25
+    },
+    {
+        "Name": "Very Berry Hibiscus Lemonade Starbucks Refreshers® Beverage",
+        "Calories": 120,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "15 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "29 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "25 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "45 mg",
+        "Price": 4.25
+    },
+    {
+        "Name": "Pink Drink",
+        "Calories": 140,
+        "Calories From Fat": 25,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "65 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "27 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "24 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "45 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Strawberry Açaí Starbucks Refreshers® Beverage",
+        "Calories": 90,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "15 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "20 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "45 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Very Berry Hibiscus Starbucks Refreshers® Beverage",
+        "Calories": 70,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "15 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "17 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "14 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Caffeine": "45 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Violet Drink",
+        "Calories": 110,
+        "Calories From Fat": 25,
+        "Total Fat": [
+            {
+                "Total Fat": "3 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "22 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "19 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "45 mg",
+        "Price": 4.45
+    },
+    {
+        "Name": "Evolution Fresh® Orange",
+        "Calories": 170,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "39 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "35 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Caffeine": "0 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Evolution Fresh® Organic Super Fruit Greens",
+        "Calories": 180,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "170 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "41 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "36 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Caffeine": "0 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Tree Top Apple Juice Box",
+        "Calories": 120,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "25 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "29 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "26 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 1.95
+    },
+    {
+        "Name": "Lemonade",
+        "Calories": 120,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "28 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "27 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 2.95
+    },
+    {
+        "Name": "Blended Strawberry Lemonade",
+        "Calories": 190,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "200 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "46 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "45 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 3.95
+    },
+    {
+        "Name": "Evolution Fresh® Organic Defense Up®",
+        "Calories": 170,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "41 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "37 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Caffeine": "0 mg",
+        "Price": 4.95
+    },
+    {
+        "Name": "Horizon® Chocolate Organic Milk",
+        "Calories": 150,
+        "Calories From Fat": 25,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "125 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "24 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "23 g" 
+            } 
+        ],
+        "Protein": "8 g",
+        "Caffeine": "0 mg",
+        "Price": 1.95
+    },
+    {
+        "Name": "Horizon® Organic Lowfat Milk Box",
+        "Calories": 150,
+        "Calories From Fat": 20,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "105 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "23 g" 
+            } 
+        ],
+        "Protein": "8 g",
+        "Caffeine": "0 mg",
+        "Price": 1.95
+    },
+    {
+        "Name": "Milk",
+        "Calories": 260,
+        "Calories From Fat": 90,
+        "Total Fat": [
+            {
+                "Total Fat": "10 g"
+            },
+            {
+                "Saturated Fat": "5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "40 mg",
+        "Sodium": "250 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "25 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "25 g" 
+            } 
+        ],
+        "Protein": "17 g",
+        "Caffeine": "0 mg",
+        "Price": 2.65
+    },
+    {
+        "Name": "Horizon® Organic Vanilla Milk Box",
+        "Calories": 140,
+        "Calories From Fat": 20,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "130 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "22 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "21 g" 
+            } 
+        ],
+        "Protein": "8 g",
+        "Caffeine": "0 mg",
+        "Price": 1.95
+    },
+    {
+        "Name": "Galvanina Sparkling Water",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Spindrift® Raspberry Lime Sparkling Water",
+        "Calories": 9,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "2 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "1 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Galvanina Sparkling Water - Lime",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 2.65
+    },
+    {
+        "Name": "Spindrift® Grapefruit Sparkling Water",
+        "Calories": 15,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "4 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "3 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 2.45
+    },
+    {
+        "Name": "Ethos® Bottled Water",
+        "Calories": 0,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Caffeine": "0 mg",
+        "Price": 2.25
     }
 ]
