@@ -1,0 +1,2540 @@
+[
+    {
+        "Name": "Impossible™ Breakfast Sandwich",
+        "Calories": 420,
+        "Calories From Fat": 200,
+        "Total Fat": [
+            {
+                "Total Fat": "22 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "190 mg",
+        "Sodium": "800 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "36 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "4 g" 
+            } 
+        ],
+        "Protein": "21 g",
+        "Price": 4.95
+    },
+    {
+        "Name": "Southwest Veggie Wrap",
+        "Calories": 590,
+        "Calories From Fat": 240,
+        "Total Fat": [
+            {
+                "Total Fat": "27 g"
+            },
+            {
+                "Saturated Fat": "12 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "420 mg",
+        "Sodium": "1340 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "61 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "3 g" 
+            } 
+        ],
+        "Protein": "24 g",
+        "Price": 5.45
+    },
+    {
+        "Name": "Bacon, Sausage & Egg Wrap",
+        "Calories": 650,
+        "Calories From Fat": 300,
+        "Total Fat": [
+            {
+                "Total Fat": "33 g"
+            },
+            {
+                "Saturated Fat": "13 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "340 mg",
+        "Sodium": "1100 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "57 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "27 g",
+        "Price": 5.45
+    },
+    {
+        "Name": "Bacon, Gouda & Egg Sandwich",
+        "Calories": 370,
+        "Calories From Fat": 160,
+        "Total Fat": [
+            {
+                "Total Fat": "18 g"
+            },
+            {
+                "Saturated Fat": "7 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "160 mg",
+        "Sodium": "700 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "32 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "17 g",
+        "Price": 3.95
+    },
+    {
+        "Name": "Double-Smoked Bacon, Cheddar & Egg Sandwich",
+        "Calories": 500,
+        "Calories From Fat": 250,
+        "Total Fat": [
+            {
+                "Total Fat": "28 g"
+            },
+            {
+                "Saturated Fat": "13 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "235 mg",
+        "Sodium": "920 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "42 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "8 g" 
+            } 
+        ],
+        "Protein": "22 g",
+        "Price": 4.95
+    },
+    {
+        "Name": "Reduced-Fat Turkey Bacon & Cage-Free Egg White Sandwich",
+        "Calories": 230,
+        "Calories From Fat": 50,
+        "Total Fat": [
+            {
+                "Total Fat": "5 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "550 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "28 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "17 g",
+        "Price": 3.85
+    },
+    {
+        "Name": "Sausage, Cheddar & Egg Sandwich",
+        "Calories": 480,
+        "Calories From Fat": 260,
+        "Total Fat": [
+            {
+                "Total Fat": "29 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "165 mg",
+        "Sodium": "890 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "34 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "18 g",
+        "Price": 3.45
+    },
+    {
+        "Name": "Roasted Ham, Swiss & Egg Sandwich",
+        "Calories": 450,
+        "Calories From Fat": 190,
+        "Total Fat": [
+            {
+                "Total Fat": "21 g"
+            },
+            {
+                "Saturated Fat": "11 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "230 mg",
+        "Sodium": "880 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "42 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "8 g" 
+            } 
+        ],
+        "Protein": "22 g",
+        "Price": 4.95
+    },
+    {
+        "Name": "Spinach, Feta & Cage-Free Egg White Wrap",
+        "Calories": 290,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "3.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "840 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "34 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "5 g" 
+            } 
+        ],
+        "Protein": "20 g",
+        "Price": 3.85
+    },
+    {
+        "Name": "Chicken Sausage & Bacon Biscuit",
+        "Calories": 380,
+        "Calories From Fat": 170,
+        "Total Fat": [
+            {
+                "Total Fat": "19 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "930 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "35 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "8 g" 
+            } 
+        ],
+        "Protein": "18 g",
+        "Price": 4.95
+    },
+    {
+        "Name": "Avocado Spread",
+        "Calories": 90,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "1 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "210 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "5 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Price": 1.25
+    },
+    {
+        "Name": "Ham, Cheddar & Peppers Sous Vide Egg Bites",
+        "Calories": 250,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "16 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "175 mg",
+        "Sodium": "460 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "11 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "1 g" 
+            } 
+        ],
+        "Protein": "17 g",
+        "Price": 4.45
+    },
+    {
+        "Name": "Bacon & Gruyère Sous Vide Egg Bites",
+        "Calories": 300,
+        "Calories From Fat": 180,
+        "Total Fat": [
+            {
+                "Total Fat": "20 g"
+            },
+            {
+                "Saturated Fat": "12 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "215 mg",
+        "Sodium": "680 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "9 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "19 g",
+        "Price": 4.45
+    },
+    {
+        "Name": "Egg White & Roasted Red Pepper Sous Vide Egg Bites",
+        "Calories": 170,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "470 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "11 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "3 g" 
+            } 
+        ],
+        "Protein": "12 g",
+        "Price": 4.45
+    },
+    {
+        "Name": "Classic Oatmeal",
+        "Calories": 160,
+        "Calories From Fat": 25,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "0.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "125 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "28 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 3.25
+    },
+    {
+        "Name": "Hearty Blueberry Oatmeal",
+        "Calories": 220,
+        "Calories From Fat": 25,
+        "Total Fat": [
+            {
+                "Total Fat": "2.5 g"
+            },
+            {
+                "Saturated Fat": "0.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "125 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "43 g"
+            }, 
+            {
+                "Dietary Fiber": "5 g",
+                "Sugar": "13 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 3.75
+    },
+    {
+        "Name": "Plain Bagel",
+        "Calories": 280,
+        "Calories From Fat": 15,
+        "Total Fat": [
+            {
+                "Total Fat": "1.5 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "620 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "56 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "9 g",
+        "Price": 1.85
+    },
+    {
+        "Name": "Cinnamon Raisin Bagel",
+        "Calories": 270,
+        "Calories From Fat": 14,
+        "Total Fat": [
+            {
+                "Total Fat": "1 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "370 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "58 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "11 g" 
+            } 
+        ],
+        "Protein": "9 g",
+        "Price": 1.85
+    },
+    {
+        "Name": "Everybody's Favorite – Bantam Bagel (2-pack)",
+        "Calories": 200,
+        "Calories From Fat": 60,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "4 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "280 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "28 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Price": 2.95
+    },
+    {
+        "Name": "Everything Bagel",
+        "Calories": 290,
+        "Calories From Fat": 40,
+        "Total Fat": [
+            {
+                "Total Fat": "4 g"
+            },
+            {
+                "Saturated Fat": "1 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "5 mg",
+        "Sodium": "450 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "53 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "5 g" 
+            } 
+        ],
+        "Protein": "11 g",
+        "Price": 1.85
+    },
+    {
+        "Name": "Sprouted Grain Vegan Bagel",
+        "Calories": 330,
+        "Calories From Fat": 60,
+        "Total Fat": [
+            {
+                "Total Fat": "6 g"
+            },
+            {
+                "Saturated Fat": "0.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "490 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "57 g"
+            }, 
+            {
+                "Dietary Fiber": "7 g",
+                "Sugar": "4 g" 
+            } 
+        ],
+        "Protein": "12 g",
+        "Price": 1.85
+    },
+    {
+        "Name": "The Classic – Bantam Bagels (2-pack)",
+        "Calories": 200,
+        "Calories From Fat": 60,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "4 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "270 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "28 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Price": 2.95
+    },
+    {
+        "Name": "Fox Cake Pop",
+        "Calories": 140,
+        "Calories From Fat": 60,
+        "Total Fat": [
+            {
+                "Total Fat": "7 g"
+            },
+            {
+                "Saturated Fat": "4 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "105 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "19 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "25 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Birthday Cake Pop",
+        "Calories": 170,
+        "Calories From Fat": 80,
+        "Total Fat": [
+            {
+                "Total Fat": "9 g"
+            },
+            {
+                "Saturated Fat": "5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "110 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "18 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Chocolate Cake Pop",
+        "Calories": 160,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "80 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "18 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Chocolate Chip Cookie Dough Cake Pop",
+        "Calories": 180,
+        "Calories From Fat": 80,
+        "Total Fat": [
+            {
+                "Total Fat": "9 g"
+            },
+            {
+                "Saturated Fat": "5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "80 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "12 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Classic Coffee Cake",
+        "Calories": 330,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "70 mg",
+        "Sodium": "270 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "43 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "21 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Price": 2.95
+    },
+    {
+        "Name": "Iced Lemon Loaf Cake",
+        "Calories": 470,
+        "Calories From Fat": 180,
+        "Total Fat": [
+            {
+                "Total Fat": "20 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "100 mg",
+        "Sodium": "310 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "68 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "42 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Price": 3.15
+    },
+    {
+        "Name": "Unicorn Cake Pop",
+        "Calories": 150,
+        "Calories From Fat": 60,
+        "Total Fat": [
+            {
+                "Total Fat": "7 g"
+            },
+            {
+                "Saturated Fat": "4 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "95 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "19 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "15 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Confetti Sugar Cookie",
+        "Calories": 410,
+        "Calories From Fat": 190,
+        "Total Fat": [
+            {
+                "Total Fat": "21 g"
+            },
+            {
+                "Saturated Fat": "16 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "60 mg",
+        "Sodium": "220 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "54 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "36 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Price": 2.45
+    },
+    {
+        "Name": "Chocolate Chip Cookie",
+        "Calories": 360,
+        "Calories From Fat": 160,
+        "Total Fat": [
+            {
+                "Total Fat": "18 g"
+            },
+            {
+                "Saturated Fat": "11 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "60 mg",
+        "Sodium": "220 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "47 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "31 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Price": 2.45
+    },
+    {
+        "Name": "Double Chocolate Chunk Brownie",
+        "Calories": 480,
+        "Calories From Fat": 250,
+        "Total Fat": [
+            {
+                "Total Fat": "28 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "75 mg",
+        "Sodium": "220 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "55 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "37 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Price": 2.95
+    },
+    {
+        "Name": "Almond Croissant",
+        "Calories": 420,
+        "Calories From Fat": 230,
+        "Total Fat": [
+            {
+                "Total Fat": "25 g"
+            },
+            {
+                "Saturated Fat": "11 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "85 mg",
+        "Sodium": "390 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "40 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "13 g" 
+            } 
+        ],
+        "Protein": "8 g",
+        "Price": 3.25
+    },
+    {
+        "Name": "Butter Croissant",
+        "Calories": 260,
+        "Calories From Fat": 30,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "1 g"
+            }
+        ],   
+        "Cholestrol": "40 mg",
+        "Sodium": "320 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "27 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "5 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 2.65
+    },
+    {
+        "Name": "Cheese Danish",
+        "Calories": 290,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "400 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "33 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "11 g" 
+            } 
+        ],
+        "Protein": "7 g",
+        "Price": 2.75
+    },
+    {
+        "Name": "Chocolate Croissant",
+        "Calories": 340,
+        "Calories From Fat": 180,
+        "Total Fat": [
+            {
+                "Total Fat": "20 g"
+            },
+            {
+                "Saturated Fat": "12 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "280 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "38 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "13 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 2.95
+    },
+    {
+        "Name": "Ham & Cheese Croissant",
+        "Calories": 320,
+        "Calories From Fat": 150,
+        "Total Fat": [
+            {
+                "Total Fat": "17 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "65 mg",
+        "Sodium": "490 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "28 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "5 g" 
+            } 
+        ],
+        "Protein": "14 g",
+        "Price": 3.75
+    },
+    {
+        "Name": "Marshmallow Dream Bar",
+        "Calories": 230,
+        "Calories From Fat": 45,
+        "Total Fat": [
+            {
+                "Total Fat": "5 g"
+            },
+            {
+                "Saturated Fat": "3.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "220 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "44 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "24 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Price": 2.50
+    },
+    {
+        "Name": "Old-Fashioned Glazed Doughnut",
+        "Calories": 480,
+        "Calories From Fat": 240,
+        "Total Fat": [
+            {
+                "Total Fat": "27 g"
+            },
+            {
+                "Saturated Fat": "13 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "410 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "56 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "30 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 1.95
+    },
+    {
+        "Name": "Pumpkin Cream Cheese Muffin",
+        "Calories": 350,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "4 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "430 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "53 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "34 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 3.25
+    },
+    {
+        "Name": "Morning Bun",
+        "Calories": 420,
+        "Calories From Fat": 200,
+        "Total Fat": [
+            {
+                "Total Fat": "22 g"
+            },
+            {
+                "Saturated Fat": "13 g",
+                "Trans Fat": "1 g"
+            }
+        ],   
+        "Cholestrol": "160 mg",
+        "Sodium": "440 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "46 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "14 g" 
+            } 
+        ],
+        "Protein": "9 g",
+        "Price": 2.95
+    },
+    {
+        "Name": "Pumpkin Bread",
+        "Calories": 410,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "55 mg",
+        "Sodium": "500 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "63 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "39 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Price": 3.15
+    },
+    {
+        "Name": "Blueberry Muffin",
+        "Calories": 360,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "3 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "270 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "52 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "33 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 2.45
+    },
+    {
+        "Name": "Banana Nut Bread",
+        "Calories": 420,
+        "Calories From Fat": 190,
+        "Total Fat": [
+            {
+                "Total Fat": "22 g"
+            },
+            {
+                "Saturated Fat": "3 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "65 mg",
+        "Sodium": "320 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "52 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "30 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Price": 3.15
+    },
+    {
+        "Name": "Pumpkin Scone",
+        "Calories": 500,
+        "Calories From Fat": 210,
+        "Total Fat": [
+            {
+                "Total Fat": "23 g"
+            },
+            {
+                "Saturated Fat": "14 g",
+                "Trans Fat": "0.5 g"
+            }
+        ],   
+        "Cholestrol": "70 mg",
+        "Sodium": "450 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "70 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "46 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Price": 3.25
+    },
+    {
+        "Name": "Blueberry Scone",
+        "Calories": 380,
+        "Calories From Fat": 150,
+        "Total Fat": [
+            {
+                "Total Fat": "17 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "70 mg",
+        "Sodium": "350 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "54 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "22 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Price": 2.75
+    },
+    {
+        "Name": "Petite Vanilla Bean Scone",
+        "Calories": 120,
+        "Calories From Fat": 40,
+        "Total Fat": [
+            {
+                "Total Fat": "4.5 g"
+            },
+            {
+                "Saturated Fat": "2 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "95 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "18 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "8 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Price": 1.25
+    },
+    {
+        "Name": "Crispy Grilled Cheese Sandwich",
+        "Calories": 540,
+        "Calories From Fat": 260,
+        "Total Fat": [
+            {
+                "Total Fat": "29 g"
+            },
+            {
+                "Saturated Fat": "16 g",
+                "Trans Fat": "1 g"
+            }
+        ],   
+        "Cholestrol": "75 mg",
+        "Sodium": "1060 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "47 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "1 g" 
+            } 
+        ],
+        "Protein": "21 g",
+        "Price": 5.95
+    },
+    {
+        "Name": "Ham & Swiss Panini",
+        "Calories": 480,
+        "Calories From Fat": 210,
+        "Total Fat": [
+            {
+                "Total Fat": "23 g"
+            },
+            {
+                "Saturated Fat": "10 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "80 mg",
+        "Sodium": "1210 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "41 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "24 g",
+        "Price": 6.75
+    },
+    {
+        "Name": "Turkey & Basil Pesto",
+        "Calories": 550,
+        "Calories From Fat": 190,
+        "Total Fat": [
+            {
+                "Total Fat": "21 g"
+            },
+            {
+                "Saturated Fat": "7 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "70 mg",
+        "Sodium": "1200 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "53 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "3 g" 
+            } 
+        ],
+        "Protein": "34 g",
+        "Price": 6.45
+    },
+    {
+        "Name": "Chicken Caprese",
+        "Calories": 540,
+        "Calories From Fat": 180,
+        "Total Fat": [
+            {
+                "Total Fat": "20 g"
+            },
+            {
+                "Saturated Fat": "7 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "70 mg",
+        "Sodium": "1100 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "57 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "3 g" 
+            } 
+        ],
+        "Protein": "32 g",
+        "Price": 6.75
+    },
+    {
+        "Name": "Chicken & Double-Smoked Bacon",
+        "Calories": 600,
+        "Calories From Fat": 500,
+        "Total Fat": [
+            {
+                "Total Fat": "25 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "105 mg",
+        "Sodium": "1460 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "65 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "12 g" 
+            } 
+        ],
+        "Protein": "29 g",
+        "Price": 6.75
+    },
+    {
+        "Name": "Tomato & Mozzarella",
+        "Calories": 370,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "6 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "760 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "42 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "18 g",
+        "Price": 5.75
+    },
+    {
+        "Name": "Grilled Chicken and Hummus Protein Box",
+        "Calories": 300,
+        "Calories From Fat": 80,
+        "Total Fat": [
+            {
+                "Total Fat": "9 g"
+            },
+            {
+                "Saturated Fat": "2 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "45 mg",
+        "Sodium": "780 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "32 g"
+            }, 
+            {
+                "Dietary Fiber": "7 g",
+                "Sugar": "6 g" 
+            } 
+        ],
+        "Protein": "22 g",
+        "Price": 6.45
+    },
+    {
+        "Name": "Eggs & Cheese Protein Box",
+        "Calories": 470,
+        "Calories From Fat": 230,
+        "Total Fat": [
+            {
+                "Total Fat": "25 g"
+            },
+            {
+                "Saturated Fat": "7 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "385 mg",
+        "Sodium": "460 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "40 g"
+            }, 
+            {
+                "Dietary Fiber": "5 g",
+                "Sugar": "21 g" 
+            } 
+        ],
+        "Protein": "23 g",
+        "Price": 5.95
+    },
+    {
+        "Name": "Peanut Butter & Jam Protein Box",
+        "Calories": 520,
+        "Calories From Fat": 240,
+        "Total Fat": [
+            {
+                "Total Fat": "27 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "630 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "51 g"
+            }, 
+            {
+                "Dietary Fiber": "6 g",
+                "Sugar": "30 g" 
+            } 
+        ],
+        "Protein": "20 g",
+        "Price": 5.45
+    },
+    {
+        "Name": "Cheese & Fruit Protein Box",
+        "Calories": 470,
+        "Calories From Fat": 250,
+        "Total Fat": [
+            {
+                "Total Fat": "28 g"
+            },
+            {
+                "Saturated Fat": "16 g",
+                "Trans Fat": "1 g"
+            }
+        ],   
+        "Cholestrol": "75 mg",
+        "Sodium": "770 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "37 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "17 g" 
+            } 
+        ],
+        "Protein": "20 g",
+        "Price": 5.45
+    },
+    {
+        "Name": "Chipotle Chicken Wrap Protein Box",
+        "Calories": 630,
+        "Calories From Fat": 240,
+        "Total Fat": [
+            {
+                "Total Fat": "27 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "80 mg",
+        "Sodium": "1580 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "71 g"
+            }, 
+            {
+                "Dietary Fiber": "8 g",
+                "Sugar": "18 g" 
+            } 
+        ],
+        "Protein": "29 g",
+        "Price": 7.95
+    },
+    {
+        "Name": "Chicken & Quinoa Protein Bowl with Black Beans and Greens",
+        "Calories": 420,
+        "Calories From Fat": 150,
+        "Total Fat": [
+            {
+                "Total Fat": "17 g"
+            },
+            {
+                "Saturated Fat": "3 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "50 mg",
+        "Sodium": "1030 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "42 g"
+            }, 
+            {
+                "Dietary Fiber": "9 g",
+                "Sugar": "11 g" 
+            } 
+        ],
+        "Protein": "27 g",
+        "Price": 8.45
+    },
+    {
+        "Name": "Dipped Madeleines",
+        "Calories": 290,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "9 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "70 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "36 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "25 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Price": 2.75
+    },
+    {
+        "Name": "Madeleines",
+        "Calories": 220,
+        "Calories From Fat": 100,
+        "Total Fat": [
+            {
+                "Total Fat": "11 g"
+            },
+            {
+                "Saturated Fat": "7 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "65 mg",
+        "Sodium": "120 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "28 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "17 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Price": 2.45
+    },
+    {
+        "Name": "Vanilla Biscotti with Almonds",
+        "Calories": 200,
+        "Calories From Fat": 80,
+        "Total Fat": [
+            {
+                "Total Fat": "9 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "30 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "25 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "10 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Price": 1.95
+    },
+    {
+        "Name": "Shortbread Cookies",
+        "Calories": 170,
+        "Calories From Fat": 80,
+        "Total Fat": [
+            {
+                "Total Fat": "9 g"
+            },
+            {
+                "Saturated Fat": "6 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "25 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "21 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "8 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Price": 1.75
+    },
+    {
+        "Name": "Dark Chocolate Grahams (2-Pack)",
+        "Calories": 140,
+        "Calories From Fat": 70,
+        "Total Fat": [
+            {
+                "Total Fat": "8 g"
+            },
+            {
+                "Saturated Fat": "4.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "30 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "18 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "11 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Rip van Wafels – Honey & Oats",
+        "Calories": 130,
+        "Calories From Fat": 50,
+        "Total Fat": [
+            {
+                "Total Fat": "6 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "5 mg",
+        "Sodium": "65 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "19 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "8 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Price": 1.95
+    },
+    {
+        "Name": "Salted Almond Chocolate Bites",
+        "Calories": 300,
+        "Calories From Fat": 50,
+        "Total Fat": [
+            {
+                "Total Fat": "22 g"
+            },
+            {
+                "Saturated Fat": "7 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "5 mg",
+        "Sodium": "200 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "24 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "19 g" 
+            } 
+        ],
+        "Protein": "7 g",
+        "Price": 2.75
+    },
+    {
+        "Name": "Chocolate Covered Espresso Beans",
+        "Calories": 260,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "5 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "29 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "22 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Price": 2.75
+    },
+    {
+        "Name": "Justin’s® Dark Chocolate Peanut Butter Cups",
+        "Calories": 210,
+        "Calories From Fat": 130,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "7 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "120 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "21 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "17 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Squirrel Brand® Fruit & Nut",
+        "Calories": 200,
+        "Calories From Fat": 110,
+        "Total Fat": [
+            {
+                "Total Fat": "12 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "100 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "23 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "14 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Squirrel Brand® – Classic Almonds",
+        "Calories": 260,
+        "Calories From Fat": 210,
+        "Total Fat": [
+            {
+                "Total Fat": "23 g"
+            },
+            {
+                "Saturated Fat": "2 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "170 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "8 g"
+            }, 
+            {
+                "Dietary Fiber": "5 g",
+                "Sugar": "2 g" 
+            } 
+        ],
+        "Protein": "9 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Peter Rabbit™ Organics Apple & Grape",
+        "Calories": 100,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "10 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "26 g"
+            }, 
+            {
+                "Dietary Fiber": "1 g",
+                "Sugar": "22 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Peter Rabbit™ Organics Strawberry Banana",
+        "Calories": 80,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "18 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "17 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Peppermint Gum",
+        "Calories": 5,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "2 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "0 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "Starbucks® BBQ Potato Chips",
+        "Calories": 270,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "13 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "410 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "35 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "3 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 1.75
+    },
+    {
+        "Name": "Butter Gourmet Popcorn",
+        "Calories": 140,
+        "Calories From Fat": 45,
+        "Total Fat": [
+            {
+                "Total Fat": "5 g"
+            },
+            {
+                "Saturated Fat": "1 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "180 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "20 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "1 g" 
+            } 
+        ],
+        "Protein": "2 g",
+        "Price": 1.50
+    },
+    {
+        "Name": "Hippeas® – White Cheddar",
+        "Calories": 100,
+        "Calories From Fat": 35,
+        "Total Fat": [
+            {
+                "Total Fat": "4 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "115 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "14 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "1 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Price": 1.95
+    },
+    {
+        "Name": "Salt & Vinegar Kettle Potato Chips",
+        "Calories": 270,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "13 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "640 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "34 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 1.75
+    },
+    {
+        "Name": "Simply Salted Kettle Potato Chips",
+        "Calories": 280,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "14 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "240 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "34 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 1.75
+    },
+    {
+        "Name": "Sweet Potato Kettle Potato Chips",
+        "Calories": 300,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "18 g"
+            },
+            {
+                "Saturated Fat": "1.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "140 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "33 g"
+            }, 
+            {
+                "Dietary Fiber": "5 g",
+                "Sugar": "9 g" 
+            } 
+        ],
+        "Protein": "3 g",
+        "Price": 1.75
+    },
+    {
+        "Name": "Country Archer – Hickory Smoked Turkey Jerkey",
+        "Calories": 70,
+        "Calories From Fat": 10,
+        "Total Fat": [
+            {
+                "Total Fat": "1 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "330 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "5 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "4 g" 
+            } 
+        ],
+        "Protein": "10 g",
+        "Price": 6.95
+    },
+    {
+        "Name": "Creminelli Snack Tray – Sopressata Salami & Monterey Jack",
+        "Calories": 220,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "17 g"
+            },
+            {
+                "Saturated Fat": "8 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "65 mg",
+        "Sodium": "720 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "15 g",
+        "Price": 5.95
+    },
+    {
+        "Name": "Moon Cheese™ – Cheddar",
+        "Calories": 70,
+        "Calories From Fat": 45,
+        "Total Fat": [
+            {
+                "Total Fat": "5 g"
+            },
+            {
+                "Saturated Fat": "3 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "0 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "1 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 4.95
+    },
+    {
+        "Name": "String Cheese",
+        "Calories": 80,
+        "Calories From Fat": 50,
+        "Total Fat": [
+            {
+                "Total Fat": "6 g"
+            },
+            {
+                "Saturated Fat": "3.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "200 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "1 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "7 g",
+        "Price": 1.25
+    },
+    {
+        "Name": "Babybel® Mini Cheese Snack",
+        "Calories": 70,
+        "Calories From Fat": 50,
+        "Total Fat": [
+            {
+                "Total Fat": "6 g"
+            },
+            {
+                "Saturated Fat": "4 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "20 mg",
+        "Sodium": "160 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "0 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "0 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 0.95
+    },
+    {
+        "Name": "Perfect Bar® – Dark Chocolate Chip Peanut Butter",
+        "Calories": 320,
+        "Calories From Fat": 170,
+        "Total Fat": [
+            {
+                "Total Fat": "19 g"
+            },
+            {
+                "Saturated Fat": "3 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "110 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "25 g"
+            }, 
+            {
+                "Dietary Fiber": "3 g",
+                "Sugar": "18 g" 
+            } 
+        ],
+        "Protein": "15 g",
+        "Price": 3.45
+    },
+    {
+        "Name": "Perfect Bar® Peanut Butter",
+        "Calories": 330,
+        "Calories From Fat": 160,
+        "Total Fat": [
+            {
+                "Total Fat": "18 g"
+            },
+            {
+                "Saturated Fat": "3 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "15 mg",
+        "Sodium": "60 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "26 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "18 g" 
+            } 
+        ],
+        "Protein": "17 g",
+        "Price": 3.45
+    },
+    {
+        "Name": "KIND® Blueberry Vanilla & Cashew Bar",
+        "Calories": 180,
+        "Calories From Fat": 110,
+        "Total Fat": [
+            {
+                "Total Fat": "12 g"
+            },
+            {
+                "Saturated Fat": "2 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "20 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "19 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "7 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "KIND® Salted Caramel & Dark Chocolate Nut Bar",
+        "Calories": 200,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "15 g"
+            },
+            {
+                "Saturated Fat": "3 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "125 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "16 g"
+            }, 
+            {
+                "Dietary Fiber": "7 g",
+                "Sugar": "5 g" 
+            } 
+        ],
+        "Protein": "6 g",
+        "Price": 2.25
+    },
+    {
+        "Name": "That's It® – Apple + Blueberry Bar",
+        "Calories": 100,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "25 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "26 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "19 g" 
+            } 
+        ],
+        "Protein": "1 g",
+        "Price": 1.95
+    },
+    {
+        "Name": "This Bar Saves Lives™ – Dark Chocolate Peanut Butter & Sea Salt Bar",
+        "Calories": 190,
+        "Calories From Fat": 90,
+        "Total Fat": [
+            {
+                "Total Fat": "10 g"
+            },
+            {
+                "Saturated Fat": "2.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "110 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "22 g"
+            }, 
+            {
+                "Dietary Fiber": "6 g",
+                "Sugar": "7 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Price": 2.50
+    },
+    {
+        "Name": "This Bar Saves Lives™ Madagascar Vanilla Almond & Honey Bar",
+        "Calories": 180,
+        "Calories From Fat": 80,
+        "Total Fat": [
+            {
+                "Total Fat": "9 g"
+            },
+            {
+                "Saturated Fat": "0.5 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "70 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "22 g"
+            }, 
+            {
+                "Dietary Fiber": "7 g",
+                "Sugar": "6 g" 
+            } 
+        ],
+        "Protein": "4 g",
+        "Price": 2.50
+    },
+    {
+        "Name": "Berry Trio Parfait",
+        "Calories": 240,
+        "Calories From Fat": 30,
+        "Total Fat": [
+            {
+                "Total Fat": "3 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "5 mg",
+        "Sodium": "125 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "39 g"
+            }, 
+            {
+                "Dietary Fiber": "2 g",
+                "Sugar": "25 g" 
+            } 
+        ],
+        "Protein": "14 g",
+        "Price": 3.75
+    },
+    {
+        "Name": "Strawberry Overnight Grains",
+        "Calories": 300,
+        "Calories From Fat": 140,
+        "Total Fat": [
+            {
+                "Total Fat": "16 g"
+            },
+            {
+                "Saturated Fat": "11 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "0 mg",
+        "Sodium": "15 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "35 g"
+            }, 
+            {
+                "Dietary Fiber": "4 g",
+                "Sugar": "20 g" 
+            } 
+        ],
+        "Protein": "5 g",
+        "Price": 3.75
+    },
+    {
+        "Name": "Siggi's® Yogurt Cup 0% Vanilla",
+        "Calories": 110,
+        "Calories From Fat": 0,
+        "Total Fat": [
+            {
+                "Total Fat": "0 g"
+            },
+            {
+                "Saturated Fat": "0 g",
+                "Trans Fat": "0 g"
+            }
+        ],   
+        "Cholestrol": "10 mg",
+        "Sodium": "55 mg",
+        "Total Carbohydrates": [
+            {
+                "Carbohydrates" : "12 g"
+            }, 
+            {
+                "Dietary Fiber": "0 g",
+                "Sugar": "9 g" 
+            } 
+        ],
+        "Protein": "15 g",
+        "Price": 2.45
+    }
+]
